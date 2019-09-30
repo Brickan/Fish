@@ -10,7 +10,7 @@ public class ThirdPersonCamera : MonoBehaviour
     Vector3 Rotation, Velocity;
 
     public float Smooth;
-    public bool UseCursor;
+    private bool UseCursor;
     public Vector2 ClampX;
     public Vector3 Offset;
     private GameObject Target;
@@ -27,9 +27,33 @@ public class ThirdPersonCamera : MonoBehaviour
         Cursor.lockState = UseCursor ? CursorLockMode.Locked : CursorLockMode.None;
     }
 
+    void ControllerCheck()
+    {
+        if (Input.GetJoystickNames().Length != 0)
+        {
+            if (Input.GetJoystickNames()[0] == "Wireless Controller")
+            {
+                UseCursor = false;
+            }
+            else
+            {
+                UseCursor = true;
+            }
+        }
+        else
+        {
+            UseCursor = true;
+        }
+
+
+        Cursor.visible = UseCursor ? false : true;
+    }
+
     // Update is called once per frame
     void Update()
     {
+
+        ControllerCheck();
         Quaternion Prev = transform.rotation;
         transform.rotation = CheckInputRotation();
         transform.position = Target.transform.position + Quaternion.Euler(Rotation) * Offset;
