@@ -5,39 +5,37 @@ using UnityEngine;
 public class SeaweedBehaviorScript : MonoBehaviour
 {
     #region Global variables
-    [SerializeField] private List<Rigidbody> rigidbodies;
+    [Tooltip("Use this variable to override all of the masses in the hierarcy. This will affect the gravitational pull upwards.")]
+    [SerializeField] private float mass = 0.01f;
+
+    [SerializeField] private List<Rigidbody> rigidbodies = new List<Rigidbody>();
     #endregion
 
 
     void Start()
     {
-        Setup();
+        foreach (Rigidbody rb in rigidbodies)
+        {
+            rb.useGravity = false;
+            rb.mass = mass;
+        }
     }
 
 
     void Update()
     {
-        
+        CustomGravity();
     }
 
 
     /// <summary>
-    /// Sets everything up for hot seaweed action.
+    /// Handles the custom reversed gravity.
     /// </summary>
-    private void Setup ()
+    private void CustomGravity ()
     {
-        Rigidbody rb = GetComponentInChildren<Rigidbody>();
-
-        // Gets all of the rigidbodies. 
-        while (true)
+        foreach (Rigidbody rb in rigidbodies)
         {
-            rigidbodies.Add(rb);
-
-            if (rb.GetComponentInChildren<Rigidbody>())
-                rb = rb.GetComponentInChildren<Rigidbody>();
-            else
-                break;
+            rb.AddForce(-Physics.gravity * (rb.mass * rb.mass), ForceMode.Force);
         }
-
     }
 }
