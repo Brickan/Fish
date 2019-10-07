@@ -8,6 +8,9 @@ public class SeaweedBehaviorScript : MonoBehaviour
     [Tooltip("Use this variable to override all of the masses in the hierarcy. This will affect the gravitational pull upwards.")]
     [SerializeField] private float mass = 0.01f;
 
+    [Tooltip("Define the power of the oceanic streams. Kinda.")]
+    [SerializeField] private float stream = 1.0f;
+
     [SerializeField] private List<Rigidbody> rigidbodies = new List<Rigidbody>();
     #endregion
 
@@ -18,11 +21,21 @@ public class SeaweedBehaviorScript : MonoBehaviour
         {
             rb.useGravity = false;
             rb.mass = mass;
+
+
         }
+
+        stream /= 100;
+        rigidbodies[rigidbodies.Count - 1].AddForce(Vector3.forward * stream, ForceMode.Force);
     }
 
 
     void Update()
+    {
+
+    }
+
+    private void FixedUpdate()
     {
         CustomGravity();
     }

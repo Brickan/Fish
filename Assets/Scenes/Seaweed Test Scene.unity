@@ -278,6 +278,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
+        type: 3}
+      propertyPath: stream
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7f9245e6e000a4f9fc626b67614ca2, type: 3}
 --- !u!1001 &1594582353
@@ -346,6 +351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
+        type: 3}
+      propertyPath: stream
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7f9245e6e000a4f9fc626b67614ca2, type: 3}
@@ -518,13 +528,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131918979}
-  m_LocalRotation: {x: 0.08603954, y: -0.22991711, z: 0.023032563, w: 0.96912587}
-  m_LocalPosition: {x: 0.753, y: 2.093, z: -3.039}
+  m_LocalRotation: {x: 0.06707349, y: -0.6336099, z: 0.058604226, w: 0.76850855}
+  m_LocalPosition: {x: 1.918, y: 2.093, z: -1.776}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 10.216001, y: -26.666, z: 0.296}
+  m_LocalEulerAnglesHint: {x: 10.216001, y: -78.982, z: 0.296}
 --- !u!1001 &8711830022263543761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -591,6 +601,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
+        type: 3}
+      propertyPath: stream
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7f9245e6e000a4f9fc626b67614ca2, type: 3}
