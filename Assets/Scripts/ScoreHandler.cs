@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScoreHandler : MonoBehaviour
 {
@@ -19,23 +20,12 @@ public class ScoreHandler : MonoBehaviour
 
     private static float plasticSpawnRate = 0.0f;
 
+    private static bool inGameScene = false;
+
     void Start()
     {
         sDifficulty = difficulty;
         sStartValue = startValue;
-    }
-
-
-    void Update()
-    {
-        UpdateScore();
-
-        Debug.Log("Score: " + score + " Spawn rate: " + GetPlasticSpawnRate());
-    }
-
-    private void UpdateScore ()
-    {
-        score += Time.deltaTime;
     }
 
 
@@ -65,4 +55,22 @@ public class ScoreHandler : MonoBehaviour
         return plasticSpawnRate;
     }
 
+
+    /// <summary>
+    /// Runs the score thingy while in the 'game scene'.
+    /// </summary>
+    /// <param name="sceneName"></param>
+    /// <returns></returns>
+    public static IEnumerator UpdateScore (string sceneName)
+    {
+        while (SceneManager.GetActiveScene().name == sceneName)
+        {
+            score += Time.deltaTime;
+            Debug.Log("SCORE: " + score + " DIFFICULTY: " + GetPlasticSpawnRate());
+
+            yield return new WaitForFixedUpdate();
+        }
+
+        score = 0.0f;
+    }
 }
