@@ -65,9 +65,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BasicMovement.cs" />
     <Compile Include="Assets\Scripts\CorallFade.cs" />
+    <Compile Include="Assets\Scripts\FallingController.cs" />
     <Compile Include="Assets\Scripts\FogController.cs" />
     <Compile Include="Assets\Scripts\ScoreHandler.cs" />
     <Compile Include="Assets\Scripts\SeaweedBehaviorScript.cs" />
+    <Compile Include="Assets\Scripts\SpwanPlastic.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Warde/Documents/GitHub/Fish/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
