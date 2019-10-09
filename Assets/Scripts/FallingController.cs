@@ -26,8 +26,6 @@ public class FallingController : MonoBehaviour
 		{
 			rmax = 5;
 		}
-
-		time = timeR;
 		//rand = transform.position.x;
 		//checkValue = rand;
 	}
@@ -57,16 +55,25 @@ public class FallingController : MonoBehaviour
 			Move();
 			time = timeR;
 		}
+
+		timeR = timeR - Time.deltaTime;
+
+		if (timeR < 0)
+		{
+			Destroy(rb);
+			Destroy(this);
+		}
+
 	}
 
-	void Move ()
+	void Move()
 	{
 		if (!bottom)
-		rb.velocity = new Vector3(rand, 0, rand2);
+			rb.velocity = new Vector3(rand, 0, rand2);
 	}
 
 	private void OnCollisionEnter(Collision collision)
 	{
-		bottom = true;
+		//bottom = true;
 	}
 }
