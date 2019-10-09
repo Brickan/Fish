@@ -28,9 +28,8 @@ public class MasterScript : MonoBehaviour
             StartCoroutine(ScoreHandler.UpdateScore(gameSceneName));
             inGameScene = true;
         }
+
+        if (Input.GetKeyDown(KeyCode.P))
+            SceneManager.LoadSceneAsync(0);
     }
-
-
-    public void LoadGameScene()
-        => SceneManager.LoadSceneAsync(gameSceneName);
 }
