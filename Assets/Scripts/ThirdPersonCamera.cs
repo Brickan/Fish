@@ -13,18 +13,55 @@ public class ThirdPersonCamera : MonoBehaviour
     private bool UseCursor;
     public Vector2 ClampX;
     public Vector3 Offset;
-    private GameObject Target;
+    private GameObject target;
+
+    private float offsetZStart;
+
+    [SerializeField]
+    private float clampMinDistance;
+    [SerializeField]
+    private float smoother, distance, hitDistanceMultiplier;
 
     // Start is called before the first frame update
     void Start()
     {
-        Target = GameObject.FindGameObjectWithTag("Player");
+        target = GameObject.FindGameObjectWithTag("Player");
         Resetting = false;
         Smooth = (Smooth == 0f) ? 0.3f : Smooth;
         Wait = new WaitForSeconds(Time.deltaTime);
         Cursor.visible = UseCursor ? false : true;
         Offset = (Offset == Vector3.zero) ? new Vector3(0, 1, -5) : Offset;
+        offsetZStart = Offset.z;
         Cursor.lockState = UseCursor ? CursorLockMode.Locked : CursorLockMode.None;
+    }
+
+    void CameraCollision()
+    {
+        RaycastHit hit;
+
+        if (Physics.Linecast(target.transform.position, transform.position, out hit))
+        {
+            distance = Mathf.Clamp((hit.distance * hitDistanceMultiplier), clampMinDistance, -offsetZStart);
+            Debug.Log("True");
+           
+        }
+        else if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back), out hit))
+        {
+            distance = Mathf.Clamp((hit.distance * hitDistanceMultiplier) ,clampMinDistance, -offsetZStart);
+        }
+        
+        else
+        {
+
+            distance = -offsetZStart;
+            
+            Debug.Log("False");
+        }
+
+        Offset.z = Mathf.Lerp(Offset.z, -distance, smoother * Time.deltaTime);
+
+        Debug.DrawLine(target.transform.position, transform.position, Color.black);
+        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back), Color.yellow);
     }
 
     void ControllerCheck()
@@ -54,9 +91,12 @@ public class ThirdPersonCamera : MonoBehaviour
     {
 
         ControllerCheck();
+        CameraCollision();
         Quaternion Prev = transform.rotation;
         transform.rotation = CheckInputRotation();
-        transform.position = Target.transform.position + Quaternion.Euler(Rotation) * Offset;
+        transform.position = target.transform.position + Quaternion.Euler(Rotation) * Offset;
+        
+
 
         if (Prev == transform.rotation) TTime += Time.deltaTime;
         //if (TTime > 2f && !Resetting) StartCoroutine("ResetToBack");
@@ -89,7 +129,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
         while (Resetting)
         {
-            Vector3 TargetRotation = Quaternion.LookRotation(Target.transform.forward, transform.up).eulerAngles;
+            Vector3 TargetRotation = Quaternion.LookRotation(target.transform.forward, transform.up).eulerAngles;
 
             if (TargetRotation.y >= 180f) yield return TargetRotation.y = 360f - TargetRotation.y;
             else if (TargetRotation.y <= -180f) yield return TargetRotation.y = -360f + TargetRotation.y;
@@ -133,4 +173,6 @@ public class ThirdPersonCamera : MonoBehaviour
 
         return Quaternion.Euler(Rotation);
     }
+
+    bool Raycast(float Distance) => Physics.Raycast(transform.position + transform.up, transform.TransformDirection(Vector3.back), Distance);
 }
