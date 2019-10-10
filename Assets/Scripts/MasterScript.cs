@@ -25,7 +25,7 @@ public class MasterScript : MonoBehaviour
 
     private void Update()
     {
-        if (gameSceneName == SceneManager.GetActiveScene().name && !inGameScene)
+        if (sceneIndex == SceneManager.GetActiveScene().buildIndex && !inGameScene)
         {
             StartCoroutine(ScoreHandler.UpdateScore(sceneIndex));
             inGameScene = true;
