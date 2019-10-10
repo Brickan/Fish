@@ -26,8 +26,6 @@ public class FallingController : MonoBehaviour
 		{
 			rmax = 5;
 		}
-		//rand = transform.position.x;
-		//checkValue = rand;
 	}
 
 	// Update is called once per frame
@@ -39,11 +37,9 @@ public class FallingController : MonoBehaviour
 
 	void ClampMove()
 	{
-		if (!bottom)
-		{
+
 			rand = Random.Range(rmin, rmax);
 			rand2 = Random.Range(zmin, zmax);
-		}
 	}
 
 	void CountDown()
@@ -68,7 +64,6 @@ public class FallingController : MonoBehaviour
 
 	void Move()
 	{
-		if (!bottom)
 			rb.velocity = new Vector3(rand, 0, rand2);
 	}
 
