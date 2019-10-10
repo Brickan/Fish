@@ -283,6 +283,11 @@ PrefabInstance:
       propertyPath: stream
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
+        type: 3}
+      propertyPath: streamDirection
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff7f9245e6e000a4f9fc626b67614ca2, type: 3}
 --- !u!1001 &1594582353
@@ -355,6 +360,11 @@ PrefabInstance:
     - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
         type: 3}
       propertyPath: stream
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
+        type: 3}
+      propertyPath: streamDirection
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -605,6 +615,11 @@ PrefabInstance:
     - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
         type: 3}
       propertyPath: stream
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296172669468880089, guid: ff7f9245e6e000a4f9fc626b67614ca2,
+        type: 3}
+      propertyPath: streamDirection
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []

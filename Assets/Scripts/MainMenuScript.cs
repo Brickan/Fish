@@ -7,6 +7,7 @@ public class MainMenuScript : MonoBehaviour
 {
     public void LoadIndex (int a)
     {
+        FindObjectOfType<MasterScript>().sceneIndex = a;
         SceneManager.LoadSceneAsync(a);
     }
 }

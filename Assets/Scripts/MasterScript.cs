@@ -9,6 +9,8 @@ public class MasterScript : MonoBehaviour
     [SerializeField]
     private string gameSceneName;
 
+    public int sceneIndex;
+
     private bool inGameScene = false;
 
     private void Awake()
@@ -25,7 +27,7 @@ public class MasterScript : MonoBehaviour
     {
         if (gameSceneName == SceneManager.GetActiveScene().name && !inGameScene)
         {
-            StartCoroutine(ScoreHandler.UpdateScore(gameSceneName));
+            StartCoroutine(ScoreHandler.UpdateScore(sceneIndex));
             inGameScene = true;
         }
 

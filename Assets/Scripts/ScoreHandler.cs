@@ -61,9 +61,9 @@ public class ScoreHandler : MonoBehaviour
     /// </summary>
     /// <param name="sceneName"></param>
     /// <returns></returns>
-    public static IEnumerator UpdateScore (string sceneName)
+    public static IEnumerator UpdateScore (int a)
     {
-        while (SceneManager.GetActiveScene().name == sceneName)
+        while (SceneManager.GetActiveScene().buildIndex == a)
         {
             score += Time.deltaTime;
             Debug.Log("SCORE: " + score + " DIFFICULTY: " + GetPlasticSpawnRate());
