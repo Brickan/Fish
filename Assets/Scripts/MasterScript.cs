@@ -9,7 +9,7 @@ public class MasterScript : MonoBehaviour
     [SerializeField]
     private string gameSceneName;
 
-    public int sceneIndex;
+    public int sceneIndex = 999;
 
     private bool inGameScene = false;
 
