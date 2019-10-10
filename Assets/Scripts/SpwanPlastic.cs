@@ -10,6 +10,7 @@ public class SpwanPlastic : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
+		startTime = ScoreHandler.GetPlasticSpawnRate();
 		time = startTime;
 	}
 
@@ -20,6 +21,7 @@ public class SpwanPlastic : MonoBehaviour
 
 		if (time < 0)
 		{
+			startTime = ScoreHandler.GetPlasticSpawnRate();
 			time = startTime;
 			Spawn();
 		}
