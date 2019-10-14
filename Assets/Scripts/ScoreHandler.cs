@@ -8,7 +8,7 @@ public class ScoreHandler : MonoBehaviour
     private static float score = 0.0f;
 
     [Tooltip("The rate at which the difficulty will incrementally increase.")]
-    [Range(1.1f, 2.0f)]
+    [Range(1.01f, 1.5f)]
     [SerializeField]
     private float difficulty = 1.1f;
     private static float sDifficulty = 0.0f;
