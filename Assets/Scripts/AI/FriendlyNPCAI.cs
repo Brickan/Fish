@@ -8,11 +8,7 @@ using UnityEngine.AI;
 public class FriendlyNPCAI : MonoBehaviour
 {
     private NavMeshAgent agent;
-    [SerializeField]
-    private Vector3[] positions;
 
-    [SerializeField]
-    private int posNum;
     [SerializeField]
     private Vector2 randomClamp;
 
