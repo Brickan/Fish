@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5002142145997947322}
   - component: {fileID: 5002142145997947316}
   - component: {fileID: 5002142145997947323}
+  - component: {fileID: 8537081583201738101}
   m_Layer: 0
   m_Name: Korall.022
   m_TagString: Untagged
@@ -78,6 +79,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8537081583201738101
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142145997947321}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146040827774
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +104,7 @@ GameObject:
   - component: {fileID: 5002142146040827775}
   - component: {fileID: 5002142146040827769}
   - component: {fileID: 5002142146040827768}
+  - component: {fileID: 3445217168199497440}
   m_Layer: 0
   m_Name: Longtubkorall.006
   m_TagString: Untagged
@@ -156,6 +172,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3445217168199497440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146040827774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146067722903
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +197,7 @@ GameObject:
   - component: {fileID: 5002142146067722896}
   - component: {fileID: 5002142146067722898}
   - component: {fileID: 5002142146067722897}
+  - component: {fileID: 5114431569305661109}
   m_Layer: 0
   m_Name: Hyllkorall.010
   m_TagString: Untagged
@@ -234,6 +265,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5114431569305661109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146067722903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146081676314
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +290,7 @@ GameObject:
   - component: {fileID: 5002142146081676315}
   - component: {fileID: 5002142146081676309}
   - component: {fileID: 5002142146081676308}
+  - component: {fileID: 3108127245001743521}
   m_Layer: 0
   m_Name: Sten.008
   m_TagString: Untagged
@@ -312,6 +358,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3108127245001743521
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146081676314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146083061655
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +383,7 @@ GameObject:
   - component: {fileID: 5002142146083061648}
   - component: {fileID: 5002142146083061650}
   - component: {fileID: 5002142146083061649}
+  - component: {fileID: 2734522269671263283}
   m_Layer: 0
   m_Name: Sten.017
   m_TagString: Untagged
@@ -390,6 +451,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2734522269671263283
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146083061655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146089750019
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +476,7 @@ GameObject:
   - component: {fileID: 5002142146089750044}
   - component: {fileID: 5002142146089750046}
   - component: {fileID: 5002142146089750045}
+  - component: {fileID: 8742135225742505055}
   m_Layer: 0
   m_Name: Tub_korall.017
   m_TagString: Untagged
@@ -468,6 +544,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8742135225742505055
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146089750019}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146092251235
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +569,7 @@ GameObject:
   - component: {fileID: 5002142146092251260}
   - component: {fileID: 5002142146092251262}
   - component: {fileID: 5002142146092251261}
+  - component: {fileID: 7022233535318683490}
   m_Layer: 0
   m_Name: Tub_korall.007
   m_TagString: Untagged
@@ -546,6 +637,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7022233535318683490
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146092251235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146100736698
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +662,7 @@ GameObject:
   - component: {fileID: 5002142146100736699}
   - component: {fileID: 5002142146100736693}
   - component: {fileID: 5002142146100736692}
+  - component: {fileID: 5692905683456869278}
   m_Layer: 0
   m_Name: Sten.030
   m_TagString: Untagged
@@ -624,6 +730,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5692905683456869278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146100736698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146101902177
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +755,7 @@ GameObject:
   - component: {fileID: 5002142146101902178}
   - component: {fileID: 5002142146101902204}
   - component: {fileID: 5002142146101902179}
+  - component: {fileID: 5114458377102240209}
   m_Layer: 0
   m_Name: Korall.030
   m_TagString: Untagged
@@ -702,6 +823,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5114458377102240209
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146101902177}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146151135963
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,6 +848,7 @@ GameObject:
   - component: {fileID: 5002142146151135956}
   - component: {fileID: 5002142146151135958}
   - component: {fileID: 5002142146151135957}
+  - component: {fileID: 941690717632829019}
   m_Layer: 0
   m_Name: Sten.020
   m_TagString: Untagged
@@ -780,6 +916,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &941690717632829019
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146151135963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146168206067
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +941,7 @@ GameObject:
   - component: {fileID: 5002142146168206028}
   - component: {fileID: 5002142146168206030}
   - component: {fileID: 5002142146168206029}
+  - component: {fileID: 8173098182097080473}
   m_Layer: 0
   m_Name: Longtubkorall.003
   m_TagString: Untagged
@@ -858,6 +1009,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8173098182097080473
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146168206067}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146192331733
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +1034,7 @@ GameObject:
   - component: {fileID: 5002142146192331734}
   - component: {fileID: 5002142146192331728}
   - component: {fileID: 5002142146192331735}
+  - component: {fileID: 1791745830639207612}
   m_Layer: 0
   m_Name: Korall.031
   m_TagString: Untagged
@@ -936,6 +1102,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1791745830639207612
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146192331733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146207345727
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,6 +1127,7 @@ GameObject:
   - component: {fileID: 5002142146207345720}
   - component: {fileID: 5002142146207345722}
   - component: {fileID: 5002142146207345721}
+  - component: {fileID: 155888128454873508}
   m_Layer: 0
   m_Name: Sten.024
   m_TagString: Untagged
@@ -1014,6 +1195,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &155888128454873508
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146207345727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146234304489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1220,7 @@ GameObject:
   - component: {fileID: 5002142146234304490}
   - component: {fileID: 5002142146234304484}
   - component: {fileID: 5002142146234304491}
+  - component: {fileID: 3694512248339885137}
   m_Layer: 0
   m_Name: Korall.005
   m_TagString: Untagged
@@ -1092,6 +1288,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3694512248339885137
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146234304489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146234965075
 GameObject:
   m_ObjectHideFlags: 0
@@ -5856,6 +6066,7 @@ GameObject:
   - component: {fileID: 5002142146247984809}
   - component: {fileID: 5002142146247984811}
   - component: {fileID: 5002142146247984810}
+  - component: {fileID: 4848402571387654960}
   m_Layer: 0
   m_Name: Tub_korall.011
   m_TagString: Untagged
@@ -5923,6 +6134,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4848402571387654960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146247984808}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146268712960
 GameObject:
   m_ObjectHideFlags: 0
@@ -5934,6 +6159,7 @@ GameObject:
   - component: {fileID: 5002142146268712961}
   - component: {fileID: 5002142146268712963}
   - component: {fileID: 5002142146268712962}
+  - component: {fileID: 4921962109109748701}
   m_Layer: 0
   m_Name: Brainkorall.006
   m_TagString: Untagged
@@ -6001,6 +6227,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4921962109109748701
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146268712960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146279875483
 GameObject:
   m_ObjectHideFlags: 0
@@ -6012,6 +6252,7 @@ GameObject:
   - component: {fileID: 5002142146279875476}
   - component: {fileID: 5002142146279875478}
   - component: {fileID: 5002142146279875477}
+  - component: {fileID: 8929446581131064404}
   m_Layer: 0
   m_Name: Sten.031
   m_TagString: Untagged
@@ -6079,6 +6320,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8929446581131064404
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146279875483}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146284186428
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,6 +6345,7 @@ GameObject:
   - component: {fileID: 5002142146284186429}
   - component: {fileID: 5002142146284186431}
   - component: {fileID: 5002142146284186430}
+  - component: {fileID: 4949268729235486802}
   m_Layer: 0
   m_Name: Hyllkorall.015
   m_TagString: Untagged
@@ -6157,6 +6413,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4949268729235486802
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146284186428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146305092451
 GameObject:
   m_ObjectHideFlags: 0
@@ -6168,6 +6438,7 @@ GameObject:
   - component: {fileID: 5002142146305092476}
   - component: {fileID: 5002142146305092478}
   - component: {fileID: 5002142146305092477}
+  - component: {fileID: 3415355615413295212}
   m_Layer: 0
   m_Name: Longtubkorall.008
   m_TagString: Untagged
@@ -6235,6 +6506,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3415355615413295212
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146305092451}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146318209062
 GameObject:
   m_ObjectHideFlags: 0
@@ -6246,6 +6531,7 @@ GameObject:
   - component: {fileID: 5002142146318209063}
   - component: {fileID: 5002142146318209057}
   - component: {fileID: 5002142146318209056}
+  - component: {fileID: 3337017421277417537}
   m_Layer: 0
   m_Name: Korall.012
   m_TagString: Untagged
@@ -6313,6 +6599,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3337017421277417537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146318209062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146326937655
 GameObject:
   m_ObjectHideFlags: 0
@@ -6324,6 +6624,7 @@ GameObject:
   - component: {fileID: 5002142146326937648}
   - component: {fileID: 5002142146326937650}
   - component: {fileID: 5002142146326937649}
+  - component: {fileID: 3092662828195886194}
   m_Layer: 0
   m_Name: Tub_korall.002
   m_TagString: Untagged
@@ -6391,6 +6692,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3092662828195886194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146326937655}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146328568478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6402,6 +6717,7 @@ GameObject:
   - component: {fileID: 5002142146328568479}
   - component: {fileID: 5002142146328568473}
   - component: {fileID: 5002142146328568472}
+  - component: {fileID: 8242429567499464638}
   m_Layer: 0
   m_Name: Brainkorall.004
   m_TagString: Untagged
@@ -6469,6 +6785,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8242429567499464638
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146328568478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146341175807
 GameObject:
   m_ObjectHideFlags: 0
@@ -6480,6 +6810,7 @@ GameObject:
   - component: {fileID: 5002142146341175800}
   - component: {fileID: 5002142146341175802}
   - component: {fileID: 5002142146341175801}
+  - component: {fileID: 2571877332133466030}
   m_Layer: 0
   m_Name: Sten.036
   m_TagString: Untagged
@@ -6547,6 +6878,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2571877332133466030
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146341175807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146341506480
 GameObject:
   m_ObjectHideFlags: 0
@@ -6558,6 +6903,7 @@ GameObject:
   - component: {fileID: 5002142146341506481}
   - component: {fileID: 5002142146341506483}
   - component: {fileID: 5002142146341506482}
+  - component: {fileID: 2781589723062126523}
   m_Layer: 0
   m_Name: Sten.035
   m_TagString: Untagged
@@ -6625,6 +6971,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2781589723062126523
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146341506480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146349367418
 GameObject:
   m_ObjectHideFlags: 0
@@ -6636,6 +6996,7 @@ GameObject:
   - component: {fileID: 5002142146349367419}
   - component: {fileID: 5002142146349367413}
   - component: {fileID: 5002142146349367412}
+  - component: {fileID: 516577418155845308}
   m_Layer: 0
   m_Name: Korall.007
   m_TagString: Untagged
@@ -6703,6 +7064,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &516577418155845308
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146349367418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146355938071
 GameObject:
   m_ObjectHideFlags: 0
@@ -6714,6 +7089,7 @@ GameObject:
   - component: {fileID: 5002142146355938064}
   - component: {fileID: 5002142146355938066}
   - component: {fileID: 5002142146355938065}
+  - component: {fileID: 6261161456582854953}
   m_Layer: 0
   m_Name: Hyllkorall.013
   m_TagString: Untagged
@@ -6781,6 +7157,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6261161456582854953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146355938071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146374984151
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,6 +7182,7 @@ GameObject:
   - component: {fileID: 5002142146374984144}
   - component: {fileID: 5002142146374984146}
   - component: {fileID: 5002142146374984145}
+  - component: {fileID: 8880686029415209498}
   m_Layer: 0
   m_Name: Korall.014
   m_TagString: Untagged
@@ -6859,6 +7250,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8880686029415209498
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146374984151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146383769360
 GameObject:
   m_ObjectHideFlags: 0
@@ -6870,6 +7275,7 @@ GameObject:
   - component: {fileID: 5002142146383769361}
   - component: {fileID: 5002142146383769363}
   - component: {fileID: 5002142146383769362}
+  - component: {fileID: 9033299034993177825}
   m_Layer: 0
   m_Name: Korall.027
   m_TagString: Untagged
@@ -6937,6 +7343,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &9033299034993177825
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146383769360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146398880129
 GameObject:
   m_ObjectHideFlags: 0
@@ -6948,6 +7368,7 @@ GameObject:
   - component: {fileID: 5002142146398880130}
   - component: {fileID: 5002142146398880156}
   - component: {fileID: 5002142146398880131}
+  - component: {fileID: 5142504608884142523}
   m_Layer: 0
   m_Name: Tub_korall.018
   m_TagString: Untagged
@@ -7015,6 +7436,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5142504608884142523
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146398880129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146402277413
 GameObject:
   m_ObjectHideFlags: 0
@@ -7026,6 +7461,7 @@ GameObject:
   - component: {fileID: 5002142146402277414}
   - component: {fileID: 5002142146402277408}
   - component: {fileID: 5002142146402277415}
+  - component: {fileID: 5156381569803465970}
   m_Layer: 0
   m_Name: Korall.025
   m_TagString: Untagged
@@ -7093,6 +7529,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5156381569803465970
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146402277413}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146407032858
 GameObject:
   m_ObjectHideFlags: 0
@@ -7104,6 +7554,7 @@ GameObject:
   - component: {fileID: 5002142146407032859}
   - component: {fileID: 5002142146407032853}
   - component: {fileID: 5002142146407032852}
+  - component: {fileID: 4343436366638272673}
   m_Layer: 0
   m_Name: Sten.010
   m_TagString: Untagged
@@ -7171,6 +7622,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4343436366638272673
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146407032858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146416688754
 GameObject:
   m_ObjectHideFlags: 0
@@ -7182,6 +7647,7 @@ GameObject:
   - component: {fileID: 5002142146416688755}
   - component: {fileID: 5002142146416688717}
   - component: {fileID: 5002142146416688716}
+  - component: {fileID: 8684907928075912151}
   m_Layer: 0
   m_Name: Sten.012
   m_TagString: Untagged
@@ -7249,6 +7715,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8684907928075912151
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146416688754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146416776691
 GameObject:
   m_ObjectHideFlags: 0
@@ -7260,6 +7740,7 @@ GameObject:
   - component: {fileID: 5002142146416776652}
   - component: {fileID: 5002142146416776654}
   - component: {fileID: 5002142146416776653}
+  - component: {fileID: 1778995595747418189}
   m_Layer: 0
   m_Name: Sten.016
   m_TagString: Untagged
@@ -7327,6 +7808,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1778995595747418189
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146416776691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146418452978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7338,6 +7833,7 @@ GameObject:
   - component: {fileID: 5002142146418452979}
   - component: {fileID: 5002142146418452941}
   - component: {fileID: 5002142146418452940}
+  - component: {fileID: 5703486859489182306}
   m_Layer: 0
   m_Name: Brainkorall.003
   m_TagString: Untagged
@@ -7405,6 +7901,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5703486859489182306
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146418452978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146421753469
 GameObject:
   m_ObjectHideFlags: 0
@@ -7416,6 +7926,7 @@ GameObject:
   - component: {fileID: 5002142146421753470}
   - component: {fileID: 5002142146421753464}
   - component: {fileID: 5002142146421753471}
+  - component: {fileID: 3152406196555960715}
   m_Layer: 0
   m_Name: Tub_korall.014
   m_TagString: Untagged
@@ -7483,6 +7994,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3152406196555960715
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146421753469}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146436875649
 GameObject:
   m_ObjectHideFlags: 0
@@ -7494,6 +8019,7 @@ GameObject:
   - component: {fileID: 5002142146436875650}
   - component: {fileID: 5002142146436875676}
   - component: {fileID: 5002142146436875651}
+  - component: {fileID: 1459927667125512834}
   m_Layer: 0
   m_Name: Korall.032
   m_TagString: Untagged
@@ -7561,6 +8087,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1459927667125512834
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146436875649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146461297871
 GameObject:
   m_ObjectHideFlags: 0
@@ -7572,6 +8112,7 @@ GameObject:
   - component: {fileID: 5002142146461297864}
   - component: {fileID: 5002142146461297866}
   - component: {fileID: 5002142146461297865}
+  - component: {fileID: 8051382116664987419}
   m_Layer: 0
   m_Name: Sten.005
   m_TagString: Untagged
@@ -7639,6 +8180,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8051382116664987419
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146461297871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146494089098
 GameObject:
   m_ObjectHideFlags: 0
@@ -7650,6 +8205,7 @@ GameObject:
   - component: {fileID: 5002142146494089099}
   - component: {fileID: 5002142146494089093}
   - component: {fileID: 5002142146494089092}
+  - component: {fileID: 1668584598070544750}
   m_Layer: 0
   m_Name: Korall.019
   m_TagString: Untagged
@@ -7717,6 +8273,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1668584598070544750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146494089098}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146501419652
 GameObject:
   m_ObjectHideFlags: 0
@@ -7728,6 +8298,7 @@ GameObject:
   - component: {fileID: 5002142146501419653}
   - component: {fileID: 5002142146501419655}
   - component: {fileID: 5002142146501419654}
+  - component: {fileID: 3071028551414627667}
   m_Layer: 0
   m_Name: Korall.015
   m_TagString: Untagged
@@ -7795,6 +8366,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3071028551414627667
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146501419652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146508984437
 GameObject:
   m_ObjectHideFlags: 0
@@ -7806,6 +8391,7 @@ GameObject:
   - component: {fileID: 5002142146508984438}
   - component: {fileID: 5002142146508984432}
   - component: {fileID: 5002142146508984439}
+  - component: {fileID: 71526607331472623}
   m_Layer: 0
   m_Name: Korall.002
   m_TagString: Untagged
@@ -7873,6 +8459,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &71526607331472623
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146508984437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146515723962
 GameObject:
   m_ObjectHideFlags: 0
@@ -12637,6 +13237,7 @@ GameObject:
   - component: {fileID: 5002142146525619486}
   - component: {fileID: 5002142146525619480}
   - component: {fileID: 5002142146525619487}
+  - component: {fileID: 877634040095946573}
   m_Layer: 0
   m_Name: Brainkorall.001
   m_TagString: Untagged
@@ -12704,6 +13305,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &877634040095946573
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146525619485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146547371363
 GameObject:
   m_ObjectHideFlags: 0
@@ -12715,6 +13330,7 @@ GameObject:
   - component: {fileID: 5002142146547371388}
   - component: {fileID: 5002142146547371390}
   - component: {fileID: 5002142146547371389}
+  - component: {fileID: 3502408410213892753}
   m_Layer: 0
   m_Name: Longtubkorall.004
   m_TagString: Untagged
@@ -12782,6 +13398,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3502408410213892753
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146547371363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146551111073
 GameObject:
   m_ObjectHideFlags: 0
@@ -12793,6 +13423,7 @@ GameObject:
   - component: {fileID: 5002142146551111074}
   - component: {fileID: 5002142146551111100}
   - component: {fileID: 5002142146551111075}
+  - component: {fileID: 8203893570639746540}
   m_Layer: 0
   m_Name: Sten.009
   m_TagString: Untagged
@@ -12860,6 +13491,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8203893570639746540
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146551111073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146558046357
 GameObject:
   m_ObjectHideFlags: 0
@@ -12871,6 +13516,7 @@ GameObject:
   - component: {fileID: 5002142146558046358}
   - component: {fileID: 5002142146558046352}
   - component: {fileID: 5002142146558046359}
+  - component: {fileID: 630937925253991995}
   m_Layer: 0
   m_Name: Hyllkorall
   m_TagString: Untagged
@@ -12962,6 +13608,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &630937925253991995
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146558046357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146559622946
 GameObject:
   m_ObjectHideFlags: 0
@@ -12973,6 +13633,7 @@ GameObject:
   - component: {fileID: 5002142146559622947}
   - component: {fileID: 5002142146559622973}
   - component: {fileID: 5002142146559622972}
+  - component: {fileID: 6645828714495564183}
   m_Layer: 0
   m_Name: Sten.025
   m_TagString: Untagged
@@ -13040,6 +13701,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6645828714495564183
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146559622946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146566933509
 GameObject:
   m_ObjectHideFlags: 0
@@ -13051,6 +13726,7 @@ GameObject:
   - component: {fileID: 5002142146566933510}
   - component: {fileID: 5002142146566933504}
   - component: {fileID: 5002142146566933511}
+  - component: {fileID: 9186222751522379731}
   m_Layer: 0
   m_Name: Korall.021
   m_TagString: Untagged
@@ -13118,6 +13794,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &9186222751522379731
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146566933509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146593681544
 GameObject:
   m_ObjectHideFlags: 0
@@ -13129,6 +13819,7 @@ GameObject:
   - component: {fileID: 5002142146593681545}
   - component: {fileID: 5002142146593681547}
   - component: {fileID: 5002142146593681546}
+  - component: {fileID: 7833661231784304350}
   m_Layer: 0
   m_Name: Korall.026
   m_TagString: Untagged
@@ -13196,6 +13887,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7833661231784304350
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146593681544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146602634695
 GameObject:
   m_ObjectHideFlags: 0
@@ -13207,6 +13912,7 @@ GameObject:
   - component: {fileID: 5002142146602634688}
   - component: {fileID: 5002142146602634690}
   - component: {fileID: 5002142146602634689}
+  - component: {fileID: 6076499510680929842}
   m_Layer: 0
   m_Name: Sten.037
   m_TagString: Untagged
@@ -13274,6 +13980,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6076499510680929842
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146602634695}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146616885089
 GameObject:
   m_ObjectHideFlags: 0
@@ -13285,6 +14005,7 @@ GameObject:
   - component: {fileID: 5002142146616885090}
   - component: {fileID: 5002142146616885116}
   - component: {fileID: 5002142146616885091}
+  - component: {fileID: 9155001717448324988}
   m_Layer: 0
   m_Name: Tub_korall.019
   m_TagString: Untagged
@@ -13352,6 +14073,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &9155001717448324988
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146616885089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146629315386
 GameObject:
   m_ObjectHideFlags: 0
@@ -13363,6 +14098,7 @@ GameObject:
   - component: {fileID: 5002142146629315387}
   - component: {fileID: 5002142146629315381}
   - component: {fileID: 5002142146629315380}
+  - component: {fileID: 8856051110093638403}
   m_Layer: 0
   m_Name: Korall.018
   m_TagString: Untagged
@@ -13430,6 +14166,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8856051110093638403
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146629315386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146641415922
 GameObject:
   m_ObjectHideFlags: 0
@@ -13441,6 +14191,7 @@ GameObject:
   - component: {fileID: 5002142146641415923}
   - component: {fileID: 5002142146641415885}
   - component: {fileID: 5002142146641415884}
+  - component: {fileID: 6636731958970106341}
   m_Layer: 0
   m_Name: Sten.003
   m_TagString: Untagged
@@ -13508,6 +14259,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6636731958970106341
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146641415922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146647174665
 GameObject:
   m_ObjectHideFlags: 0
@@ -13519,6 +14284,7 @@ GameObject:
   - component: {fileID: 5002142146647174666}
   - component: {fileID: 5002142146647174660}
   - component: {fileID: 5002142146647174667}
+  - component: {fileID: 6840991848802603135}
   m_Layer: 0
   m_Name: Brainkorall.008
   m_TagString: Untagged
@@ -13586,6 +14352,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6840991848802603135
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146647174665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146679102383
 GameObject:
   m_ObjectHideFlags: 0
@@ -13597,6 +14377,7 @@ GameObject:
   - component: {fileID: 5002142146679102376}
   - component: {fileID: 5002142146679102378}
   - component: {fileID: 5002142146679102377}
+  - component: {fileID: 4183772953643846555}
   m_Layer: 0
   m_Name: Hyllkorall.014
   m_TagString: Untagged
@@ -13664,6 +14445,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4183772953643846555
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146679102383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146706503948
 GameObject:
   m_ObjectHideFlags: 0
@@ -13675,6 +14470,7 @@ GameObject:
   - component: {fileID: 5002142146706503949}
   - component: {fileID: 5002142146706503951}
   - component: {fileID: 5002142146706503950}
+  - component: {fileID: 294587151394784977}
   m_Layer: 0
   m_Name: Sten.019
   m_TagString: Untagged
@@ -13742,6 +14538,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &294587151394784977
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146706503948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146713555246
 GameObject:
   m_ObjectHideFlags: 0
@@ -18506,6 +19316,7 @@ GameObject:
   - component: {fileID: 5002142146727289354}
   - component: {fileID: 5002142146727289348}
   - component: {fileID: 5002142146727289355}
+  - component: {fileID: 7845257997806284299}
   m_Layer: 0
   m_Name: Tub_korall.005
   m_TagString: Untagged
@@ -18573,6 +19384,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7845257997806284299
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146727289353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146738495398
 GameObject:
   m_ObjectHideFlags: 0
@@ -18584,6 +19409,7 @@ GameObject:
   - component: {fileID: 5002142146738495399}
   - component: {fileID: 5002142146738495393}
   - component: {fileID: 5002142146738495392}
+  - component: {fileID: 107213164641850001}
   m_Layer: 0
   m_Name: Brainkorall.005
   m_TagString: Untagged
@@ -18651,6 +19477,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &107213164641850001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146738495398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146742844595
 GameObject:
   m_ObjectHideFlags: 0
@@ -18662,6 +19502,7 @@ GameObject:
   - component: {fileID: 5002142146742844556}
   - component: {fileID: 5002142146742844558}
   - component: {fileID: 5002142146742844557}
+  - component: {fileID: 2222808662828221892}
   m_Layer: 0
   m_Name: Brainkorall.009
   m_TagString: Untagged
@@ -18729,6 +19570,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2222808662828221892
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146742844595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146768351315
 GameObject:
   m_ObjectHideFlags: 0
@@ -18740,6 +19595,7 @@ GameObject:
   - component: {fileID: 5002142146768351276}
   - component: {fileID: 5002142146768351278}
   - component: {fileID: 5002142146768351277}
+  - component: {fileID: 5250864487652648848}
   m_Layer: 0
   m_Name: Korall.001
   m_TagString: Untagged
@@ -18807,6 +19663,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5250864487652648848
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146768351315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146770447932
 GameObject:
   m_ObjectHideFlags: 0
@@ -18818,6 +19688,7 @@ GameObject:
   - component: {fileID: 5002142146770447933}
   - component: {fileID: 5002142146770447935}
   - component: {fileID: 5002142146770447934}
+  - component: {fileID: 3038129969829044261}
   m_Layer: 0
   m_Name: Sten2.001
   m_TagString: Untagged
@@ -18885,6 +19756,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3038129969829044261
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146770447932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -4519711527698641104, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146810876888
 GameObject:
   m_ObjectHideFlags: 0
@@ -18896,6 +19781,7 @@ GameObject:
   - component: {fileID: 5002142146810876889}
   - component: {fileID: 5002142146810876891}
   - component: {fileID: 5002142146810876890}
+  - component: {fileID: 8724847169651096640}
   m_Layer: 0
   m_Name: Sten.041
   m_TagString: Untagged
@@ -18963,6 +19849,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8724847169651096640
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146810876888}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146820484591
 GameObject:
   m_ObjectHideFlags: 0
@@ -18974,6 +19874,7 @@ GameObject:
   - component: {fileID: 5002142146820484584}
   - component: {fileID: 5002142146820484586}
   - component: {fileID: 5002142146820484585}
+  - component: {fileID: 8662909344884458273}
   m_Layer: 0
   m_Name: Korall.024
   m_TagString: Untagged
@@ -19041,6 +19942,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8662909344884458273
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146820484591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146825953071
 GameObject:
   m_ObjectHideFlags: 0
@@ -19052,6 +19967,7 @@ GameObject:
   - component: {fileID: 5002142146825953064}
   - component: {fileID: 5002142146825953066}
   - component: {fileID: 5002142146825953065}
+  - component: {fileID: 1169866287497037533}
   m_Layer: 0
   m_Name: Sten.029
   m_TagString: Untagged
@@ -19119,6 +20035,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1169866287497037533
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146825953071}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146840755135
 GameObject:
   m_ObjectHideFlags: 0
@@ -19130,6 +20060,7 @@ GameObject:
   - component: {fileID: 5002142146840755128}
   - component: {fileID: 5002142146840755130}
   - component: {fileID: 5002142146840755129}
+  - component: {fileID: 7321724688978130921}
   m_Layer: 0
   m_Name: Sten.034
   m_TagString: Untagged
@@ -19197,6 +20128,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7321724688978130921
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146840755135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146863668919
 GameObject:
   m_ObjectHideFlags: 0
@@ -23961,6 +24906,7 @@ GameObject:
   - component: {fileID: 5002142146889632733}
   - component: {fileID: 5002142146889632735}
   - component: {fileID: 5002142146889632734}
+  - component: {fileID: 2755548716025272823}
   m_Layer: 0
   m_Name: Longtubkorall
   m_TagString: Untagged
@@ -24039,6 +24985,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2755548716025272823
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146889632732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146894338954
 GameObject:
   m_ObjectHideFlags: 0
@@ -24050,6 +25010,7 @@ GameObject:
   - component: {fileID: 5002142146894338955}
   - component: {fileID: 5002142146894338949}
   - component: {fileID: 5002142146894338948}
+  - component: {fileID: 3190240332271614790}
   m_Layer: 0
   m_Name: Tub_korall.013
   m_TagString: Untagged
@@ -24117,6 +25078,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3190240332271614790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146894338954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146913506310
 GameObject:
   m_ObjectHideFlags: 0
@@ -24128,6 +25103,7 @@ GameObject:
   - component: {fileID: 5002142146913506311}
   - component: {fileID: 5002142146913506305}
   - component: {fileID: 5002142146913506304}
+  - component: {fileID: 2992515508888119971}
   m_Layer: 0
   m_Name: Sten.023
   m_TagString: Untagged
@@ -24195,6 +25171,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2992515508888119971
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146913506310}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146921322264
 GameObject:
   m_ObjectHideFlags: 0
@@ -24206,6 +25196,7 @@ GameObject:
   - component: {fileID: 5002142146921322265}
   - component: {fileID: 5002142146921322267}
   - component: {fileID: 5002142146921322266}
+  - component: {fileID: 7908037313881572646}
   m_Layer: 0
   m_Name: Sten.013
   m_TagString: Untagged
@@ -24273,6 +25264,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7908037313881572646
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146921322264}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146962249053
 GameObject:
   m_ObjectHideFlags: 0
@@ -24284,6 +25289,7 @@ GameObject:
   - component: {fileID: 5002142146962249054}
   - component: {fileID: 5002142146962249048}
   - component: {fileID: 5002142146962249055}
+  - component: {fileID: 4482337432074706372}
   m_Layer: 0
   m_Name: Botten
   m_TagString: Untagged
@@ -24351,6 +25357,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4482337432074706372
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146962249053}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6855836849807014215, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146963562501
 GameObject:
   m_ObjectHideFlags: 0
@@ -24362,6 +25382,7 @@ GameObject:
   - component: {fileID: 5002142146963562502}
   - component: {fileID: 5002142146963562496}
   - component: {fileID: 5002142146963562503}
+  - component: {fileID: 4742402399342835313}
   m_Layer: 0
   m_Name: Korall.016
   m_TagString: Untagged
@@ -24429,6 +25450,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4742402399342835313
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146963562501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146971295172
 GameObject:
   m_ObjectHideFlags: 0
@@ -24440,6 +25475,7 @@ GameObject:
   - component: {fileID: 5002142146971295173}
   - component: {fileID: 5002142146971295175}
   - component: {fileID: 5002142146971295174}
+  - component: {fileID: 5563854644957501626}
   m_Layer: 0
   m_Name: Korall.013
   m_TagString: Untagged
@@ -24507,6 +25543,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5563854644957501626
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146971295172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146984663454
 GameObject:
   m_ObjectHideFlags: 0
@@ -24518,6 +25568,7 @@ GameObject:
   - component: {fileID: 5002142146984663455}
   - component: {fileID: 5002142146984663449}
   - component: {fileID: 5002142146984663448}
+  - component: {fileID: 8593950239133646962}
   m_Layer: 0
   m_Name: Korall.010
   m_TagString: Untagged
@@ -24585,6 +25636,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8593950239133646962
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146984663454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146987838354
 GameObject:
   m_ObjectHideFlags: 0
@@ -24596,6 +25661,7 @@ GameObject:
   - component: {fileID: 5002142146987838355}
   - component: {fileID: 5002142146987838061}
   - component: {fileID: 5002142146987838060}
+  - component: {fileID: 4401188414350892682}
   m_Layer: 0
   m_Name: Brainkorall
   m_TagString: Untagged
@@ -24676,6 +25742,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4401188414350892682
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146987838354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142146992199463
 GameObject:
   m_ObjectHideFlags: 0
@@ -24687,6 +25767,7 @@ GameObject:
   - component: {fileID: 5002142146992199456}
   - component: {fileID: 5002142146992199458}
   - component: {fileID: 5002142146992199457}
+  - component: {fileID: 2863099269046763319}
   m_Layer: 0
   m_Name: Korall.029
   m_TagString: Untagged
@@ -24754,6 +25835,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2863099269046763319
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142146992199463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147018826576
 GameObject:
   m_ObjectHideFlags: 0
@@ -24765,6 +25860,7 @@ GameObject:
   - component: {fileID: 5002142147018826577}
   - component: {fileID: 5002142147018826579}
   - component: {fileID: 5002142147018826578}
+  - component: {fileID: 3434266664384974834}
   m_Layer: 0
   m_Name: Tub_korall.020
   m_TagString: Untagged
@@ -24832,6 +25928,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3434266664384974834
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147018826576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147038212403
 GameObject:
   m_ObjectHideFlags: 0
@@ -24843,6 +25953,7 @@ GameObject:
   - component: {fileID: 5002142147038212364}
   - component: {fileID: 5002142147038212366}
   - component: {fileID: 5002142147038212365}
+  - component: {fileID: 5477300643793369955}
   m_Layer: 0
   m_Name: Hyllkorall.008
   m_TagString: Untagged
@@ -24910,6 +26021,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5477300643793369955
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147038212403}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147038858630
 GameObject:
   m_ObjectHideFlags: 0
@@ -24921,6 +26046,7 @@ GameObject:
   - component: {fileID: 5002142147038858631}
   - component: {fileID: 5002142147038858625}
   - component: {fileID: 5002142147038858624}
+  - component: {fileID: 7150513918449597750}
   m_Layer: 0
   m_Name: Hyllkorall.018
   m_TagString: Untagged
@@ -24988,6 +26114,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7150513918449597750
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147038858630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147043340467
 GameObject:
   m_ObjectHideFlags: 0
@@ -24999,6 +26139,7 @@ GameObject:
   - component: {fileID: 5002142147043340428}
   - component: {fileID: 5002142147043340430}
   - component: {fileID: 5002142147043340429}
+  - component: {fileID: 1586022784718896591}
   m_Layer: 0
   m_Name: Longtubkorall.001
   m_TagString: Untagged
@@ -25066,6 +26207,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1586022784718896591
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147043340467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147046940692
 GameObject:
   m_ObjectHideFlags: 0
@@ -25077,6 +26232,7 @@ GameObject:
   - component: {fileID: 5002142147046940693}
   - component: {fileID: 5002142147046940695}
   - component: {fileID: 5002142147046940694}
+  - component: {fileID: 1453858823775690054}
   m_Layer: 0
   m_Name: Tub_korall.008
   m_TagString: Untagged
@@ -25144,6 +26300,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1453858823775690054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147046940692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147054743333
 GameObject:
   m_ObjectHideFlags: 0
@@ -25155,6 +26325,7 @@ GameObject:
   - component: {fileID: 5002142147054743334}
   - component: {fileID: 5002142147054743328}
   - component: {fileID: 5002142147054743335}
+  - component: {fileID: 6536021391196280235}
   m_Layer: 0
   m_Name: Tub_korall.006
   m_TagString: Untagged
@@ -25222,6 +26393,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6536021391196280235
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147054743333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147058018300
 GameObject:
   m_ObjectHideFlags: 0
@@ -25233,6 +26418,7 @@ GameObject:
   - component: {fileID: 5002142147058018301}
   - component: {fileID: 5002142147058018303}
   - component: {fileID: 5002142147058018302}
+  - component: {fileID: 8501788492066672700}
   m_Layer: 0
   m_Name: Sten.022
   m_TagString: Untagged
@@ -25300,6 +26486,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8501788492066672700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147058018300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147074345075
 GameObject:
   m_ObjectHideFlags: 0
@@ -25311,6 +26511,7 @@ GameObject:
   - component: {fileID: 5002142147074345036}
   - component: {fileID: 5002142147074345038}
   - component: {fileID: 5002142147074345037}
+  - component: {fileID: 4335258993891376069}
   m_Layer: 0
   m_Name: Hyllkorall.019
   m_TagString: Untagged
@@ -25378,6 +26579,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4335258993891376069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147074345075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147079726832
 GameObject:
   m_ObjectHideFlags: 0
@@ -25389,6 +26604,7 @@ GameObject:
   - component: {fileID: 5002142147079726833}
   - component: {fileID: 5002142147079726835}
   - component: {fileID: 5002142147079726834}
+  - component: {fileID: 8582015965496825650}
   m_Layer: 0
   m_Name: Korall.006
   m_TagString: Untagged
@@ -25456,6 +26672,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8582015965496825650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147079726832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147086012727
 GameObject:
   m_ObjectHideFlags: 0
@@ -25467,6 +26697,7 @@ GameObject:
   - component: {fileID: 5002142147086012720}
   - component: {fileID: 5002142147086012722}
   - component: {fileID: 5002142147086012721}
+  - component: {fileID: 7045678362820462940}
   m_Layer: 0
   m_Name: Sten.033
   m_TagString: Untagged
@@ -25534,6 +26765,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7045678362820462940
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147086012727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147086696903
 GameObject:
   m_ObjectHideFlags: 0
@@ -25545,6 +26790,7 @@ GameObject:
   - component: {fileID: 5002142147086696896}
   - component: {fileID: 5002142147086696898}
   - component: {fileID: 5002142147086696897}
+  - component: {fileID: 1091288304628601840}
   m_Layer: 0
   m_Name: Sten.004
   m_TagString: Untagged
@@ -25612,6 +26858,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1091288304628601840
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147086696903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147112997025
 GameObject:
   m_ObjectHideFlags: 0
@@ -25623,6 +26883,7 @@ GameObject:
   - component: {fileID: 5002142147112997026}
   - component: {fileID: 5002142147112997052}
   - component: {fileID: 5002142147112997027}
+  - component: {fileID: 6255564716053384186}
   m_Layer: 0
   m_Name: Sten
   m_TagString: Untagged
@@ -25734,6 +26995,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6255564716053384186
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147112997025}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147119129249
 GameObject:
   m_ObjectHideFlags: 0
@@ -25745,6 +27020,7 @@ GameObject:
   - component: {fileID: 5002142147119129250}
   - component: {fileID: 5002142147119129276}
   - component: {fileID: 5002142147119129251}
+  - component: {fileID: 2054081582467348858}
   m_Layer: 0
   m_Name: Hyllkorall.023
   m_TagString: Untagged
@@ -25812,6 +27088,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2054081582467348858
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147119129249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147122108972
 GameObject:
   m_ObjectHideFlags: 0
@@ -25823,6 +27113,7 @@ GameObject:
   - component: {fileID: 5002142147122108973}
   - component: {fileID: 5002142147122108975}
   - component: {fileID: 5002142147122108974}
+  - component: {fileID: 926115590689390671}
   m_Layer: 0
   m_Name: Sten.040
   m_TagString: Untagged
@@ -25890,6 +27181,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &926115590689390671
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147122108972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147126479897
 GameObject:
   m_ObjectHideFlags: 0
@@ -25901,6 +27206,7 @@ GameObject:
   - component: {fileID: 5002142147126479898}
   - component: {fileID: 5002142147126479892}
   - component: {fileID: 5002142147126479899}
+  - component: {fileID: 134994103067422555}
   m_Layer: 0
   m_Name: Brainkorall.007
   m_TagString: Untagged
@@ -25968,6 +27274,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &134994103067422555
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147126479897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147126744973
 GameObject:
   m_ObjectHideFlags: 0
@@ -30732,6 +32052,7 @@ GameObject:
   - component: {fileID: 5002142147129713777}
   - component: {fileID: 5002142147129713779}
   - component: {fileID: 5002142147129713778}
+  - component: {fileID: 4894470471482558461}
   m_Layer: 0
   m_Name: Korall.017
   m_TagString: Untagged
@@ -30799,6 +32120,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4894470471482558461
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147129713776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147132659871
 GameObject:
   m_ObjectHideFlags: 0
@@ -30810,6 +32145,7 @@ GameObject:
   - component: {fileID: 5002142147132659864}
   - component: {fileID: 5002142147132659866}
   - component: {fileID: 5002142147132659865}
+  - component: {fileID: 7579724294814633969}
   m_Layer: 0
   m_Name: Longtubkorall.005
   m_TagString: Untagged
@@ -30877,6 +32213,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7579724294814633969
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147132659871}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147135497456
 GameObject:
   m_ObjectHideFlags: 0
@@ -30888,6 +32238,7 @@ GameObject:
   - component: {fileID: 5002142147135497457}
   - component: {fileID: 5002142147135497459}
   - component: {fileID: 5002142147135497458}
+  - component: {fileID: 1244403995496444910}
   m_Layer: 0
   m_Name: Sten.038
   m_TagString: Untagged
@@ -30955,6 +32306,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1244403995496444910
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147135497456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147137974995
 GameObject:
   m_ObjectHideFlags: 0
@@ -30966,6 +32331,7 @@ GameObject:
   - component: {fileID: 5002142147137974956}
   - component: {fileID: 5002142147137974958}
   - component: {fileID: 5002142147137974957}
+  - component: {fileID: 6500932603266074735}
   m_Layer: 0
   m_Name: Tub_korall.010
   m_TagString: Untagged
@@ -31033,6 +32399,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6500932603266074735
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147137974995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147147524055
 GameObject:
   m_ObjectHideFlags: 0
@@ -31044,6 +32424,7 @@ GameObject:
   - component: {fileID: 5002142147147524048}
   - component: {fileID: 5002142147147524050}
   - component: {fileID: 5002142147147524049}
+  - component: {fileID: 6588826511900245292}
   m_Layer: 0
   m_Name: Brainkorall.012
   m_TagString: Untagged
@@ -31111,6 +32492,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6588826511900245292
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147147524055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147155358921
 GameObject:
   m_ObjectHideFlags: 0
@@ -31122,6 +32517,7 @@ GameObject:
   - component: {fileID: 5002142147155358922}
   - component: {fileID: 5002142147155358916}
   - component: {fileID: 5002142147155358923}
+  - component: {fileID: 2005923842761781069}
   m_Layer: 0
   m_Name: Sten.014
   m_TagString: Untagged
@@ -31189,6 +32585,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2005923842761781069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147155358921}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147174708242
 GameObject:
   m_ObjectHideFlags: 0
@@ -31200,6 +32610,7 @@ GameObject:
   - component: {fileID: 5002142147174708243}
   - component: {fileID: 5002142147174708461}
   - component: {fileID: 5002142147174708460}
+  - component: {fileID: 4577411922783934562}
   m_Layer: 0
   m_Name: Sten.027
   m_TagString: Untagged
@@ -31267,6 +32678,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4577411922783934562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147174708242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147176984967
 GameObject:
   m_ObjectHideFlags: 0
@@ -31278,6 +32703,7 @@ GameObject:
   - component: {fileID: 5002142147176984960}
   - component: {fileID: 5002142147176984962}
   - component: {fileID: 5002142147176984961}
+  - component: {fileID: 1814934245044285899}
   m_Layer: 0
   m_Name: Korall
   m_TagString: Untagged
@@ -31377,6 +32803,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1814934245044285899
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147176984967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147190273402
 GameObject:
   m_ObjectHideFlags: 0
@@ -31388,6 +32828,7 @@ GameObject:
   - component: {fileID: 5002142147190273403}
   - component: {fileID: 5002142147190273397}
   - component: {fileID: 5002142147190273396}
+  - component: {fileID: 8740659788518171577}
   m_Layer: 0
   m_Name: Longtubkorall.010
   m_TagString: Untagged
@@ -31455,6 +32896,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8740659788518171577
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147190273402}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147193141333
 GameObject:
   m_ObjectHideFlags: 0
@@ -31466,6 +32921,7 @@ GameObject:
   - component: {fileID: 5002142147193141334}
   - component: {fileID: 5002142147193141328}
   - component: {fileID: 5002142147193141335}
+  - component: {fileID: 7962580651566866982}
   m_Layer: 0
   m_Name: Korall.023
   m_TagString: Untagged
@@ -31533,6 +32989,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7962580651566866982
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147193141333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147194451963
 GameObject:
   m_ObjectHideFlags: 0
@@ -31544,6 +33014,7 @@ GameObject:
   - component: {fileID: 5002142147194451956}
   - component: {fileID: 5002142147194451958}
   - component: {fileID: 5002142147194451957}
+  - component: {fileID: 4675173652214945239}
   m_Layer: 0
   m_Name: Sten.002
   m_TagString: Untagged
@@ -31611,6 +33082,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4675173652214945239
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147194451963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147204683107
 GameObject:
   m_ObjectHideFlags: 0
@@ -31622,6 +33107,7 @@ GameObject:
   - component: {fileID: 5002142147204683132}
   - component: {fileID: 5002142147204683134}
   - component: {fileID: 5002142147204683133}
+  - component: {fileID: 5334801818842192336}
   m_Layer: 0
   m_Name: Hyllkorall.006
   m_TagString: Untagged
@@ -31689,6 +33175,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5334801818842192336
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147204683107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147248782221
 GameObject:
   m_ObjectHideFlags: 0
@@ -31700,6 +33200,7 @@ GameObject:
   - component: {fileID: 5002142147248782222}
   - component: {fileID: 5002142147248782216}
   - component: {fileID: 5002142147248782223}
+  - component: {fileID: 8168737071879167339}
   m_Layer: 0
   m_Name: Tub_korall.004
   m_TagString: Untagged
@@ -31767,6 +33268,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8168737071879167339
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147248782221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147263211590
 GameObject:
   m_ObjectHideFlags: 0
@@ -31778,6 +33293,7 @@ GameObject:
   - component: {fileID: 5002142147263211591}
   - component: {fileID: 5002142147263211585}
   - component: {fileID: 5002142147263211584}
+  - component: {fileID: 2449395535074635531}
   m_Layer: 0
   m_Name: Longtubkorall.007
   m_TagString: Untagged
@@ -31845,6 +33361,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2449395535074635531
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147263211590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147281299959
 GameObject:
   m_ObjectHideFlags: 0
@@ -31856,6 +33386,7 @@ GameObject:
   - component: {fileID: 5002142147281299952}
   - component: {fileID: 5002142147281299954}
   - component: {fileID: 5002142147281299953}
+  - component: {fileID: 5784402326556353399}
   m_Layer: 0
   m_Name: Hyllkorall.004
   m_TagString: Untagged
@@ -31923,6 +33454,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5784402326556353399
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147281299959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147285321885
 GameObject:
   m_ObjectHideFlags: 0
@@ -31934,6 +33479,7 @@ GameObject:
   - component: {fileID: 5002142147285321886}
   - component: {fileID: 5002142147285321880}
   - component: {fileID: 5002142147285321887}
+  - component: {fileID: 5364719817169101464}
   m_Layer: 0
   m_Name: Hyllkorall.021
   m_TagString: Untagged
@@ -32001,6 +33547,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5364719817169101464
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147285321885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147316209580
 GameObject:
   m_ObjectHideFlags: 0
@@ -32012,6 +33572,7 @@ GameObject:
   - component: {fileID: 5002142147316209581}
   - component: {fileID: 5002142147316209583}
   - component: {fileID: 5002142147316209582}
+  - component: {fileID: 8031523377348291687}
   m_Layer: 0
   m_Name: Longtubkorall.009
   m_TagString: Untagged
@@ -32079,6 +33640,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8031523377348291687
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147316209580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147316781813
 GameObject:
   m_ObjectHideFlags: 0
@@ -32090,6 +33665,7 @@ GameObject:
   - component: {fileID: 5002142147316781814}
   - component: {fileID: 5002142147316781808}
   - component: {fileID: 5002142147316781815}
+  - component: {fileID: 3587305033029621676}
   m_Layer: 0
   m_Name: Tub_korall
   m_TagString: Untagged
@@ -32177,6 +33753,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3587305033029621676
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147316781813}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147317850289
 GameObject:
   m_ObjectHideFlags: 0
@@ -32188,6 +33778,7 @@ GameObject:
   - component: {fileID: 5002142147317850290}
   - component: {fileID: 5002142147317850252}
   - component: {fileID: 5002142147317850291}
+  - component: {fileID: 5795032234301552562}
   m_Layer: 0
   m_Name: Hyllkorall.003
   m_TagString: Untagged
@@ -32255,6 +33846,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5795032234301552562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147317850289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147324093727
 GameObject:
   m_ObjectHideFlags: 0
@@ -32266,6 +33871,7 @@ GameObject:
   - component: {fileID: 5002142147324093720}
   - component: {fileID: 5002142147324093722}
   - component: {fileID: 5002142147324093721}
+  - component: {fileID: 7092257381367690645}
   m_Layer: 0
   m_Name: Hyllkorall.009
   m_TagString: Untagged
@@ -32333,6 +33939,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7092257381367690645
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147324093727}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147356174529
 GameObject:
   m_ObjectHideFlags: 0
@@ -32344,6 +33964,7 @@ GameObject:
   - component: {fileID: 5002142147356174530}
   - component: {fileID: 5002142147356174556}
   - component: {fileID: 5002142147356174531}
+  - component: {fileID: 152454506516947634}
   m_Layer: 0
   m_Name: Brainkorall.011
   m_TagString: Untagged
@@ -32411,6 +34032,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &152454506516947634
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147356174529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147419572686
 GameObject:
   m_ObjectHideFlags: 0
@@ -32422,6 +34057,7 @@ GameObject:
   - component: {fileID: 5002142147419572687}
   - component: {fileID: 5002142147419572681}
   - component: {fileID: 5002142147419572680}
+  - component: {fileID: 7543973162614501340}
   m_Layer: 0
   m_Name: Hyllkorall.005
   m_TagString: Untagged
@@ -32489,6 +34125,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7543973162614501340
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147419572686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147470969298
 GameObject:
   m_ObjectHideFlags: 0
@@ -32500,6 +34150,7 @@ GameObject:
   - component: {fileID: 5002142147470969299}
   - component: {fileID: 5002142147470969261}
   - component: {fileID: 5002142147470969260}
+  - component: {fileID: 5152754530919070321}
   m_Layer: 0
   m_Name: Longtubkorall.011
   m_TagString: Untagged
@@ -32567,6 +34218,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5152754530919070321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147470969298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147483614606
 GameObject:
   m_ObjectHideFlags: 0
@@ -32578,6 +34243,7 @@ GameObject:
   - component: {fileID: 5002142147483614607}
   - component: {fileID: 5002142147483614601}
   - component: {fileID: 5002142147483614600}
+  - component: {fileID: 836497911124104852}
   m_Layer: 0
   m_Name: Hyllkorall.001
   m_TagString: Untagged
@@ -32645,6 +34311,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &836497911124104852
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147483614606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147490480810
 GameObject:
   m_ObjectHideFlags: 0
@@ -32694,6 +34374,7 @@ GameObject:
   - component: {fileID: 5002142147499145521}
   - component: {fileID: 5002142147499145523}
   - component: {fileID: 5002142147499145522}
+  - component: {fileID: 3989956684697081967}
   m_Layer: 0
   m_Name: Hyllkorall.012
   m_TagString: Untagged
@@ -32761,6 +34442,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3989956684697081967
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147499145520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147500734068
 GameObject:
   m_ObjectHideFlags: 0
@@ -32772,6 +34467,7 @@ GameObject:
   - component: {fileID: 5002142147500734069}
   - component: {fileID: 5002142147500734071}
   - component: {fileID: 5002142147500734070}
+  - component: {fileID: 4292142236735021850}
   m_Layer: 0
   m_Name: Korall.003
   m_TagString: Untagged
@@ -32839,6 +34535,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4292142236735021850
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147500734068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147514861362
 GameObject:
   m_ObjectHideFlags: 0
@@ -32850,6 +34560,7 @@ GameObject:
   - component: {fileID: 5002142147514861363}
   - component: {fileID: 5002142147514861325}
   - component: {fileID: 5002142147514861324}
+  - component: {fileID: 8365887361816918699}
   m_Layer: 0
   m_Name: Sten.015
   m_TagString: Untagged
@@ -32917,6 +34628,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8365887361816918699
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147514861362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147550667191
 GameObject:
   m_ObjectHideFlags: 0
@@ -32928,6 +34653,7 @@ GameObject:
   - component: {fileID: 5002142147550667184}
   - component: {fileID: 5002142147550667186}
   - component: {fileID: 5002142147550667185}
+  - component: {fileID: 5975200028328474170}
   m_Layer: 0
   m_Name: Korall.004
   m_TagString: Untagged
@@ -32995,6 +34721,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5975200028328474170
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147550667191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147660652062
 GameObject:
   m_ObjectHideFlags: 0
@@ -33006,6 +34746,7 @@ GameObject:
   - component: {fileID: 5002142147660652063}
   - component: {fileID: 5002142147660652057}
   - component: {fileID: 5002142147660652056}
+  - component: {fileID: 9208592490886605012}
   m_Layer: 0
   m_Name: Hyllkorall.022
   m_TagString: Untagged
@@ -33073,6 +34814,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &9208592490886605012
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147660652062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147681003539
 GameObject:
   m_ObjectHideFlags: 0
@@ -33084,6 +34839,7 @@ GameObject:
   - component: {fileID: 5002142147681003756}
   - component: {fileID: 5002142147681003758}
   - component: {fileID: 5002142147681003757}
+  - component: {fileID: 8701741759391275950}
   m_Layer: 0
   m_Name: Korall.028
   m_TagString: Untagged
@@ -33151,6 +34907,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8701741759391275950
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147681003539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147694716800
 GameObject:
   m_ObjectHideFlags: 0
@@ -33162,6 +34932,7 @@ GameObject:
   - component: {fileID: 5002142147694716801}
   - component: {fileID: 5002142147694716803}
   - component: {fileID: 5002142147694716802}
+  - component: {fileID: 1966165547470548058}
   m_Layer: 0
   m_Name: Longtubkorall.002
   m_TagString: Untagged
@@ -33229,6 +35000,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1966165547470548058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147694716800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -31986818816673547, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147711767771
 GameObject:
   m_ObjectHideFlags: 0
@@ -33240,6 +35025,7 @@ GameObject:
   - component: {fileID: 5002142147711767764}
   - component: {fileID: 5002142147711767766}
   - component: {fileID: 5002142147711767765}
+  - component: {fileID: 5889144681636742872}
   m_Layer: 0
   m_Name: Tub_korall.015
   m_TagString: Untagged
@@ -33307,6 +35093,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5889144681636742872
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147711767771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147727106053
 GameObject:
   m_ObjectHideFlags: 0
@@ -38071,6 +39871,7 @@ GameObject:
   - component: {fileID: 5002142147744293808}
   - component: {fileID: 5002142147744293810}
   - component: {fileID: 5002142147744293809}
+  - component: {fileID: 2608659173197495997}
   m_Layer: 0
   m_Name: Tub_korall.001
   m_TagString: Untagged
@@ -38138,6 +39939,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2608659173197495997
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147744293815}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147748700435
 GameObject:
   m_ObjectHideFlags: 0
@@ -38149,6 +39964,7 @@ GameObject:
   - component: {fileID: 5002142147748700652}
   - component: {fileID: 5002142147748700654}
   - component: {fileID: 5002142147748700653}
+  - component: {fileID: 3529841675351069439}
   m_Layer: 0
   m_Name: Sten.032
   m_TagString: Untagged
@@ -38216,6 +40032,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3529841675351069439
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147748700435}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147796483595
 GameObject:
   m_ObjectHideFlags: 0
@@ -38227,6 +40057,7 @@ GameObject:
   - component: {fileID: 5002142147796483588}
   - component: {fileID: 5002142147796483590}
   - component: {fileID: 5002142147796483589}
+  - component: {fileID: 2052486227690853972}
   m_Layer: 0
   m_Name: Tub_korall.016
   m_TagString: Untagged
@@ -38294,6 +40125,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2052486227690853972
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147796483595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147801129954
 GameObject:
   m_ObjectHideFlags: 0
@@ -38305,6 +40150,7 @@ GameObject:
   - component: {fileID: 5002142147801129955}
   - component: {fileID: 5002142147801129981}
   - component: {fileID: 5002142147801129980}
+  - component: {fileID: 2412457541435924502}
   m_Layer: 0
   m_Name: Sten.006
   m_TagString: Untagged
@@ -38372,6 +40218,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2412457541435924502
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147801129954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147805784607
 GameObject:
   m_ObjectHideFlags: 0
@@ -38383,6 +40243,7 @@ GameObject:
   - component: {fileID: 5002142147805784600}
   - component: {fileID: 5002142147805784602}
   - component: {fileID: 5002142147805784601}
+  - component: {fileID: 6884687248624396258}
   m_Layer: 0
   m_Name: Brainkorall.013
   m_TagString: Untagged
@@ -38450,6 +40311,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6884687248624396258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147805784607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147806319200
 GameObject:
   m_ObjectHideFlags: 0
@@ -38461,6 +40336,7 @@ GameObject:
   - component: {fileID: 5002142147806319201}
   - component: {fileID: 5002142147806319203}
   - component: {fileID: 5002142147806319202}
+  - component: {fileID: 2610631033452042140}
   m_Layer: 0
   m_Name: Sten.007
   m_TagString: Untagged
@@ -38528,6 +40404,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2610631033452042140
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147806319200}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147830109428
 GameObject:
   m_ObjectHideFlags: 0
@@ -38539,6 +40429,7 @@ GameObject:
   - component: {fileID: 5002142147830109429}
   - component: {fileID: 5002142147830109431}
   - component: {fileID: 5002142147830109430}
+  - component: {fileID: 6072388515544504889}
   m_Layer: 0
   m_Name: Sten.001
   m_TagString: Untagged
@@ -38606,6 +40497,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6072388515544504889
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147830109428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147839736897
 GameObject:
   m_ObjectHideFlags: 0
@@ -38617,6 +40522,7 @@ GameObject:
   - component: {fileID: 5002142147839736898}
   - component: {fileID: 5002142147839736924}
   - component: {fileID: 5002142147839736899}
+  - component: {fileID: 3969834870750177274}
   m_Layer: 0
   m_Name: Korall.020
   m_TagString: Untagged
@@ -38684,6 +40590,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3969834870750177274
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147839736897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147864416794
 GameObject:
   m_ObjectHideFlags: 0
@@ -38695,6 +40615,7 @@ GameObject:
   - component: {fileID: 5002142147864416795}
   - component: {fileID: 5002142147864416789}
   - component: {fileID: 5002142147864416788}
+  - component: {fileID: 498374972635994279}
   m_Layer: 0
   m_Name: Tub_korall.012
   m_TagString: Untagged
@@ -38762,6 +40683,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &498374972635994279
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147864416794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147882661287
 GameObject:
   m_ObjectHideFlags: 0
@@ -38773,6 +40708,7 @@ GameObject:
   - component: {fileID: 5002142147882661280}
   - component: {fileID: 5002142147882661282}
   - component: {fileID: 5002142147882661281}
+  - component: {fileID: 6822767703926112170}
   m_Layer: 0
   m_Name: Tub_korall.003
   m_TagString: Untagged
@@ -38840,6 +40776,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6822767703926112170
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147882661287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147887818396
 GameObject:
   m_ObjectHideFlags: 0
@@ -38851,6 +40801,7 @@ GameObject:
   - component: {fileID: 5002142147887818397}
   - component: {fileID: 5002142147887818399}
   - component: {fileID: 5002142147887818398}
+  - component: {fileID: 3494030782904696187}
   m_Layer: 0
   m_Name: Hyllkorall.011
   m_TagString: Untagged
@@ -38918,6 +40869,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3494030782904696187
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147887818396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147894660662
 GameObject:
   m_ObjectHideFlags: 0
@@ -38929,6 +40894,7 @@ GameObject:
   - component: {fileID: 5002142147894660663}
   - component: {fileID: 5002142147894660657}
   - component: {fileID: 5002142147894660656}
+  - component: {fileID: 6591889704548275518}
   m_Layer: 0
   m_Name: Hyllkorall.007
   m_TagString: Untagged
@@ -38996,6 +40962,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6591889704548275518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147894660662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147903368823
 GameObject:
   m_ObjectHideFlags: 0
@@ -39007,6 +40987,7 @@ GameObject:
   - component: {fileID: 5002142147903368816}
   - component: {fileID: 5002142147903368818}
   - component: {fileID: 5002142147903368817}
+  - component: {fileID: 7438320189633346960}
   m_Layer: 0
   m_Name: Korall.009
   m_TagString: Untagged
@@ -39074,6 +41055,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7438320189633346960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147903368823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147907164226
 GameObject:
   m_ObjectHideFlags: 0
@@ -39085,6 +41080,7 @@ GameObject:
   - component: {fileID: 5002142147907164227}
   - component: {fileID: 5002142147907164253}
   - component: {fileID: 5002142147907164252}
+  - component: {fileID: 8181179390468025897}
   m_Layer: 0
   m_Name: Brainkorall.010
   m_TagString: Untagged
@@ -39152,6 +41148,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8181179390468025897
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147907164226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147910977732
 GameObject:
   m_ObjectHideFlags: 0
@@ -39163,6 +41173,7 @@ GameObject:
   - component: {fileID: 5002142147910977733}
   - component: {fileID: 5002142147910977735}
   - component: {fileID: 5002142147910977734}
+  - component: {fileID: 160856838653644059}
   m_Layer: 0
   m_Name: Korall.011
   m_TagString: Untagged
@@ -39230,6 +41241,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &160856838653644059
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147910977732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147917391969
 GameObject:
   m_ObjectHideFlags: 0
@@ -39241,6 +41266,7 @@ GameObject:
   - component: {fileID: 5002142147917391970}
   - component: {fileID: 5002142147917391996}
   - component: {fileID: 5002142147917391971}
+  - component: {fileID: 8691785853310019528}
   m_Layer: 0
   m_Name: Korall.008
   m_TagString: Untagged
@@ -39308,6 +41334,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8691785853310019528
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147917391969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 7741331063871219522, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147933577705
 GameObject:
   m_ObjectHideFlags: 0
@@ -39319,6 +41359,7 @@ GameObject:
   - component: {fileID: 5002142147933577706}
   - component: {fileID: 5002142147933577700}
   - component: {fileID: 5002142147933577707}
+  - component: {fileID: 6396240684148930436}
   m_Layer: 0
   m_Name: Sten.021
   m_TagString: Untagged
@@ -39386,6 +41427,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6396240684148930436
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147933577705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147974386324
 GameObject:
   m_ObjectHideFlags: 0
@@ -39397,6 +41452,8 @@ GameObject:
   - component: {fileID: 5002142147974386325}
   - component: {fileID: 5002142147974386327}
   - component: {fileID: 5002142147974386326}
+  - component: {fileID: 68558020685570958}
+  - component: {fileID: 5925754578390214271}
   m_Layer: 0
   m_Name: Hyllkorall.024
   m_TagString: Untagged
@@ -39464,6 +41521,34 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &68558020685570958
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147974386324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
+--- !u!64 &5925754578390214271
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147974386324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147975559902
 GameObject:
   m_ObjectHideFlags: 0
@@ -39475,6 +41560,7 @@ GameObject:
   - component: {fileID: 5002142147975559903}
   - component: {fileID: 5002142147975559897}
   - component: {fileID: 5002142147975559896}
+  - component: {fileID: 1688524252156870918}
   m_Layer: 0
   m_Name: Sten2
   m_TagString: Untagged
@@ -39542,6 +41628,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1688524252156870918
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147975559902}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -4519711527698641104, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147977525390
 GameObject:
   m_ObjectHideFlags: 0
@@ -39553,6 +41653,7 @@ GameObject:
   - component: {fileID: 5002142147977525391}
   - component: {fileID: 5002142147977525385}
   - component: {fileID: 5002142147977525384}
+  - component: {fileID: 269941456736317970}
   m_Layer: 0
   m_Name: Sten.028
   m_TagString: Untagged
@@ -39620,6 +41721,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &269941456736317970
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147977525390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142147993062299
 GameObject:
   m_ObjectHideFlags: 0
@@ -39631,6 +41746,7 @@ GameObject:
   - component: {fileID: 5002142147993062292}
   - component: {fileID: 5002142147993062294}
   - component: {fileID: 5002142147993062293}
+  - component: {fileID: 3716375182662950017}
   m_Layer: 0
   m_Name: Hyllkorall.017
   m_TagString: Untagged
@@ -39698,6 +41814,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &3716375182662950017
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142147993062299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148004072278
 GameObject:
   m_ObjectHideFlags: 0
@@ -39709,6 +41839,7 @@ GameObject:
   - component: {fileID: 5002142148004072279}
   - component: {fileID: 5002142148004072273}
   - component: {fileID: 5002142148004072272}
+  - component: {fileID: 8784085198651618715}
   m_Layer: 0
   m_Name: Sten.026
   m_TagString: Untagged
@@ -39776,6 +41907,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &8784085198651618715
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148004072278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148013466539
 GameObject:
   m_ObjectHideFlags: 0
@@ -39787,6 +41932,7 @@ GameObject:
   - component: {fileID: 5002142148013466532}
   - component: {fileID: 5002142148013466534}
   - component: {fileID: 5002142148013466533}
+  - component: {fileID: 7994330112490525947}
   m_Layer: 0
   m_Name: Brainkorall.002
   m_TagString: Untagged
@@ -39854,6 +42000,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &7994330112490525947
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148013466539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 3693666002886808943, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148028252240
 GameObject:
   m_ObjectHideFlags: 0
@@ -39865,6 +42025,7 @@ GameObject:
   - component: {fileID: 5002142148028252241}
   - component: {fileID: 5002142148028252243}
   - component: {fileID: 5002142148028252242}
+  - component: {fileID: 4798176378098591}
   m_Layer: 0
   m_Name: Sten2.002
   m_TagString: Untagged
@@ -39932,6 +42093,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4798176378098591
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148028252240}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -4519711527698641104, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148058250332
 GameObject:
   m_ObjectHideFlags: 0
@@ -39943,6 +42118,7 @@ GameObject:
   - component: {fileID: 5002142148058250333}
   - component: {fileID: 5002142148058250335}
   - component: {fileID: 5002142148058250334}
+  - component: {fileID: 2284803925304347054}
   m_Layer: 0
   m_Name: Hyllkorall.016
   m_TagString: Untagged
@@ -40010,6 +42186,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2284803925304347054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148058250332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148079895316
 GameObject:
   m_ObjectHideFlags: 0
@@ -40021,6 +42211,7 @@ GameObject:
   - component: {fileID: 5002142148079895317}
   - component: {fileID: 5002142148079895319}
   - component: {fileID: 5002142148079895318}
+  - component: {fileID: 5397283020846747944}
   m_Layer: 0
   m_Name: Hyllkorall.020
   m_TagString: Untagged
@@ -40088,6 +42279,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5397283020846747944
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148079895316}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148081001954
 GameObject:
   m_ObjectHideFlags: 0
@@ -40099,6 +42304,7 @@ GameObject:
   - component: {fileID: 5002142148081001955}
   - component: {fileID: 5002142148081001981}
   - component: {fileID: 5002142148081001980}
+  - component: {fileID: 5200056506529696651}
   m_Layer: 0
   m_Name: Sten.011
   m_TagString: Untagged
@@ -40166,6 +42372,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5200056506529696651
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148081001954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148083237945
 GameObject:
   m_ObjectHideFlags: 0
@@ -40177,6 +42397,7 @@ GameObject:
   - component: {fileID: 5002142148083237946}
   - component: {fileID: 5002142148083237940}
   - component: {fileID: 5002142148083237947}
+  - component: {fileID: 5225390073732716258}
   m_Layer: 0
   m_Name: Sten.039
   m_TagString: Untagged
@@ -40244,6 +42465,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5225390073732716258
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148083237945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148098292742
 GameObject:
   m_ObjectHideFlags: 0
@@ -40255,6 +42490,7 @@ GameObject:
   - component: {fileID: 5002142148098292743}
   - component: {fileID: 5002142148098292737}
   - component: {fileID: 5002142148098292736}
+  - component: {fileID: 862458879417626970}
   m_Layer: 0
   m_Name: Hyllkorall.002
   m_TagString: Untagged
@@ -40322,6 +42558,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &862458879417626970
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148098292742}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: -6110067916447007946, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148132300694
 GameObject:
   m_ObjectHideFlags: 0
@@ -40333,6 +42583,7 @@ GameObject:
   - component: {fileID: 5002142148132300695}
   - component: {fileID: 5002142148132300689}
   - component: {fileID: 5002142148132300688}
+  - component: {fileID: 4077142694002582778}
   m_Layer: 0
   m_Name: Sten.018
   m_TagString: Untagged
@@ -40400,6 +42651,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4077142694002582778
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148132300694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8266201280592006162, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &5002142148134829372
 GameObject:
   m_ObjectHideFlags: 0
@@ -40411,6 +42676,7 @@ GameObject:
   - component: {fileID: 5002142148134829373}
   - component: {fileID: 5002142148134829375}
   - component: {fileID: 5002142148134829374}
+  - component: {fileID: 5069764643644305859}
   m_Layer: 0
   m_Name: Tub_korall.009
   m_TagString: Untagged
@@ -40478,6 +42744,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &5069764643644305859
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002142148134829372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 8251528318158995406, guid: 94a020c42ec8a134492dac46323975a5, type: 3}
 --- !u!1 &6043206622348425604
 GameObject:
   m_ObjectHideFlags: 0
