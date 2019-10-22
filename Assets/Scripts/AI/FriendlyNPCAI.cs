@@ -21,6 +21,8 @@ public class FriendlyNPCAI : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         offsetClamp = new Vector2(0.1f, 0.7f);
+
+        randomClamp = (randomClamp == Vector2.zero) ? new Vector2(-10, 10) : randomClamp;
     }
 
     // Update is called once per frame
