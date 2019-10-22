@@ -9,6 +9,8 @@ public class MenuControllerChecker : MonoBehaviour
     private int buttonInt, currentButton;
     private bool UseCursor, moved;
 
+    private Button thisButton;
+
     private Toggle toggle;
 
     // Start is called before the first frame update
@@ -35,47 +37,44 @@ public class MenuControllerChecker : MonoBehaviour
 
     void ChangeButton()
     {
-        if(Input.GetAxis("Vertical") > 0 && !moved)
+        if (GameObject.FindGameObjectWithTag("Credits") == null)
         {
-            currentButton -= 1;
-            moved = true;
-        }
-        else if(Input.GetAxis("Vertical") < 0 && !moved)
-        {
-            currentButton += 1;
-            moved = true;
-        }
-        else if (Input.GetAxis("Vertical") == 0)
-        {
-            moved = false;
-        }
+            if (Input.GetAxis("Vertical") > 0 && !moved)
+            {
+                currentButton -= 1;
+                moved = true;
+            }
+            else if (Input.GetAxis("Vertical") < 0 && !moved)
+            {
+                currentButton += 1;
+                moved = true;
+            }
+            else if (Input.GetAxis("Vertical") == 0)
+            {
+                moved = false;
+            }
 
-        if(currentButton < 0)
-        {
-            currentButton = buttonInt - 1;
-        }
-        else if(currentButton == buttonInt)
-        {
-            currentButton = 0;
-        }
-        else
-        {
+            if (currentButton < 0)
+            {
+                currentButton = buttonInt - 1;
+            }
+            else if (currentButton == buttonInt)
+            {
+                currentButton = 0;
+            }
+            else
+            {
 
-        }
+            }
 
-        Button thisButton = GameObject.FindGameObjectWithTag("Menu").GetComponentsInChildren<Button>()[currentButton];
-        thisButton.Select();
-        
-        if(Input.GetAxis("Submit") > 0)
-        {
-            thisButton.onClick.Invoke();
+            SelectedButton();
         }
-
     }
 
-    void SelectButton()
+    void SelectedButton()
     {
-
+            thisButton = GameObject.FindGameObjectWithTag("Menu").GetComponentsInChildren<Button>()[currentButton];
+            thisButton.Select();
     }
 
     void ControllerCheck()

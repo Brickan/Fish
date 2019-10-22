@@ -33,7 +33,7 @@ public class FriendlyNPCAI : MonoBehaviour
 
     void RandomWalk()
     {
-        if(!agent.hasPath)
+        if(!agent.hasPath || agent.isPathStale)
         {
             agent.SetDestination(new Vector3(
                 transform.position.x + Random.Range(randomClamp.x, randomClamp.y),
@@ -41,7 +41,7 @@ public class FriendlyNPCAI : MonoBehaviour
                 transform.position.z + Random.Range(randomClamp.x, randomClamp.y)));
 
             newOffset = Mathf.Clamp(Random.Range(agent.baseOffset - 0.2f, agent.baseOffset + 0.2f),offsetClamp.x,offsetClamp.y);
-            Debug.Log(agent.destination);
+           
         }
             agent.baseOffset = Mathf.MoveTowards(agent.baseOffset, newOffset, Time.deltaTime * 0.1f);
         transform.LookAt(new Vector3(agent.destination.x, (newOffset * 10) + 1.08f, agent.destination.z));
