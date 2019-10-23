@@ -66,7 +66,7 @@ public class BasicMovement : MonoBehaviour
     {
         Vector3 lookDir = Camera.main.transform.rotation * (new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
 
-        body.transform.LookAt(new Vector3(lookDir.x, 0, lookDir.z) + body.transform.position);
+        body.transform.LookAt(new Vector3(lookDir.x, lookDir.y, lookDir.z) + body.transform.position);
     }
 
 
@@ -75,18 +75,11 @@ public class BasicMovement : MonoBehaviour
         Vector3 velocityForward = (transform.forward * currentDirection.z) * speed;
         Vector3 velocityRight = (transform.forward * currentDirection.x) * speed;
         Vector3 velocityUp = (transform.up * Input.GetAxis("Jump")) * (speed/4);
-
-        if (Input.GetAxis("Vertical") != 0 && Input.GetAxis("Jump") == 0 || Input.GetAxis("Horizontal") != 0  && Input.GetAxis("Jump") == 0)
-        {
-            velocityUp = (transform.up * -Camera.main.transform.rotation.x) * speed;
-        }
         
 
         Vector3 VelVec = velocityForward + velocityRight + velocityUp;
 
 
         body.velocity = VelVec;
-
-        cameraRotation = -Camera.main.transform.rotation.x;
     }
 }
