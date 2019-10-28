@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HungerScript : MonoBehaviour
 {
@@ -16,17 +17,25 @@ public class HungerScript : MonoBehaviour
     [SerializeField]
     private float hungerMultiplier = 1.0f;
 
+    [SerializeField]
+    private int deathSceneIndex = 0;
+    private static int deathIndex;
+
     void Start()
     {
         // copying the inspector values to the static variables for use in static methods and coroutines.
         stat_hunger = startHunger;
         stat_hungerMultiplier = hungerMultiplier;
+
+        deathIndex = deathSceneIndex;
+
+        StartHunger();
     }
 
     /// <summary>
     /// Starts the hunger meter.
     /// </summary>
-    public void StartHunger ()
+    private void StartHunger ()
     {
         StartCoroutine(UpdateHunger());
     }
@@ -57,13 +66,15 @@ public class HungerScript : MonoBehaviour
 
             yield return new WaitForFixedUpdate();
         }
+
+        DeadFish();
     }
 
     /// <summary>
     /// Only to be used if we wanna brutaly murder the fish by way if this script. (Unimplemented)
     /// </summary>
-    public static void DeadFish ()
+    private static void DeadFish ()
     {
-        // TODO: Kill the fish in an appropriate way.
+        SceneManager.LoadSceneAsync(deathIndex);
     }
 }

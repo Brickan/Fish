@@ -71,10 +71,12 @@
     <Compile Include="Assets\Scripts\CorallFade.cs" />
     <Compile Include="Assets\Scripts\FallingController.cs" />
     <Compile Include="Assets\Scripts\FogController.cs" />
+    <Compile Include="Assets\Scripts\GameOverScript.cs" />
     <Compile Include="Assets\Scripts\HungerScript.cs" />
     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\MasterScript.cs" />
     <Compile Include="Assets\Scripts\MenuControllerChecker.cs" />
+    <Compile Include="Assets\Scripts\ReturnToMainMenu.cs" />
     <Compile Include="Assets\Scripts\ScoreHandler.cs" />
     <Compile Include="Assets\Scripts\SeaweedBehaviorScript.cs" />
     <Compile Include="Assets\Scripts\SpwanPlastic.cs" />
