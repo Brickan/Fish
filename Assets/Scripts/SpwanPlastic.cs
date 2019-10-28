@@ -31,6 +31,6 @@ public class SpwanPlastic : MonoBehaviour
 		float randPosX = Random.Range(minPosX * -1, maxPosX);
 		float randPosZ = Random.Range(minPosZ * -1, maxPosZ);
 
-		Instantiate(plast[randPlast], new Vector3(randPosX, 40, randPosZ), Quaternion.identity);
+		Instantiate(plast[randPlast], new Vector3(randPosX, 200, randPosZ), Quaternion.identity);
 	}
 }
