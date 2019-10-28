@@ -14,15 +14,19 @@ public class FriendlyNPCAI : MonoBehaviour
 
     private Vector2 offsetClamp;
 
-    private float newOffset;
+    private float targetOffset;
+
+    private Quaternion rotation;
+
+    private bool oneLook;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        offsetClamp = new Vector2(0.1f, 0.7f);
+        offsetClamp = new Vector2(0.2f, 0.7f);
 
-        randomClamp = (randomClamp == Vector2.zero) ? new Vector2(-10, 10) : randomClamp;
+        randomClamp = (randomClamp == Vector2.zero) ? new Vector2(-100, 100) : randomClamp;
     }
 
     // Update is called once per frame
@@ -33,20 +37,34 @@ public class FriendlyNPCAI : MonoBehaviour
 
     void RandomWalk()
     {
-        if(!agent.hasPath || agent.isPathStale)
+        if (!agent.hasPath)
         {
+            oneLook = false;
             agent.SetDestination(new Vector3(
                 transform.position.x + Random.Range(randomClamp.x, randomClamp.y),
                 transform.position.y,
                 transform.position.z + Random.Range(randomClamp.x, randomClamp.y)));
 
-            newOffset = Mathf.Clamp(Random.Range(agent.baseOffset - 0.2f, agent.baseOffset + 0.2f),offsetClamp.x,offsetClamp.y);
-           
-        }
-            agent.baseOffset = Mathf.MoveTowards(agent.baseOffset, newOffset, Time.deltaTime * 0.1f);
-        transform.LookAt(new Vector3(agent.destination.x, (newOffset * 10) + 1.08f, agent.destination.z));
+            targetOffset = Mathf.Clamp(Random.Range(agent.baseOffset - 0.2f, agent.baseOffset + 0.2f), offsetClamp.x, offsetClamp.y);
 
-        Debug.DrawLine(this.transform.position, new Vector3(agent.destination.x, (newOffset * 10) + 1.08f, agent.destination.z), Color.black);
+        }
+
+        agent.baseOffset = Mathf.MoveTowards(agent.baseOffset, targetOffset, Time.deltaTime * 0.01f);
+
+
+        if (!oneLook)
+        {
+            transform.LookAt(new Vector3(agent.destination.x, (targetOffset * 100) + 6.45615f, agent.destination.z));
+            rotation = transform.rotation;
+            oneLook = true;
+        }
+        else
+        {
+            transform.rotation = rotation;
+        }
+
+        Debug.DrawLine(transform.position, new Vector3(agent.destination.x, (targetOffset * 100) + 6.45615f, agent.destination.z), Color.black);
+
 
     }
 }
