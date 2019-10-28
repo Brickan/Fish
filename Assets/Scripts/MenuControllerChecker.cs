@@ -37,7 +37,7 @@ public class MenuControllerChecker : MonoBehaviour
 
     void ChangeButton()
     {
-        if (GameObject.FindGameObjectWithTag("Credits") == null)
+        if (GameObject.FindGameObjectWithTag("Credits") == null && GameObject.FindGameObjectWithTag("Instructions") == null)
         {
             if (Input.GetAxis("Vertical") > 0 && !moved)
             {

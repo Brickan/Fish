@@ -8,6 +8,8 @@ TagManager:
   - Starting
   - Credits
   - MenuController
+  - Instructions
+  - Food
   layers:
   - Default
   - TransparentFX

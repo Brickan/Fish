@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: a35ae60cfe34b2d4fb9ee72b8f3a562b
+    path: Assets/Scenes/StartingScene.unity
+    guid: a80dcf1a38f3f944395c4f26bfcfbae6
   - enabled: 1
     path: Assets/Scenes/PlastTest.unity
     guid: a2789d8f85f9fcc439555deaa33d6b00
   - enabled: 1
-    path: Assets/Scenes/Seaweed Test Scene.unity
-    guid: a4eac787e686757488b6b018fa8af571
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 4020654a9d27b6d41910eb9da087b692
   m_configObjects: {}

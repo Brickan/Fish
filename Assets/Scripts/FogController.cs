@@ -13,7 +13,7 @@ public class FogController : MonoBehaviour
     void Start()
     {
         RenderSettings.fog = true;
-        RenderSettings.fogColor = new Color(0.19f, 0.3f, 0.47f);
+        RenderSettings.fogColor = new Color(0.1921569f, 0.3254902f, 0.4235294f);
         player = GameObject.FindGameObjectWithTag("Player");
         startEndDistance = RenderSettings.fogEndDistance;
         fogMultiplier = (fogMultiplier == 0) ? fogMultiplier = 3 : fogMultiplier;
@@ -29,7 +29,7 @@ public class FogController : MonoBehaviour
     {
         RaycastHit hit;
         Physics.Linecast(transform.position, player.transform.position, out hit);
-        Debug.Log(hit.distance);
+
 
         RenderSettings.fogEndDistance = FogCalc(hit.distance);
 
@@ -40,7 +40,7 @@ public class FogController : MonoBehaviour
     {
         float maxEndDist = startEndDistance - (inValue * fogMultiplier);
 
-        if(maxEndDist < 1)
+        if (maxEndDist < 1)
         {
             maxEndDist = 1;
         }

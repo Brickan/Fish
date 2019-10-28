@@ -10,6 +10,7 @@ public class ThirdPersonCamera : MonoBehaviour
     Vector3 Rotation, Velocity;
 
     public float Smooth;
+    [SerializeField]
     private bool UseCursor;
     public Vector2 ClampX;
     public Vector3 Offset;
@@ -29,10 +30,10 @@ public class ThirdPersonCamera : MonoBehaviour
         Resetting = false;
         Smooth = (Smooth == 0f) ? 0.3f : Smooth;
         Wait = new WaitForSeconds(Time.deltaTime);
-        Cursor.visible = UseCursor ? false : true;
+        Cursor.visible = false;
         Offset = (Offset == Vector3.zero) ? new Vector3(0, 1, -5) : Offset;
         offsetZStart = Offset.z;
-        Cursor.lockState = UseCursor ? CursorLockMode.Locked : CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Locked;
 
         smoother = (smoother == 0) ? smoother = 10 : smoother;
         hitDistanceMultiplier = (hitDistanceMultiplier == 0) ? hitDistanceMultiplier = 0.85f : hitDistanceMultiplier;
@@ -46,7 +47,7 @@ public class ThirdPersonCamera : MonoBehaviour
         if (Physics.Linecast(target.transform.position, transform.position, out hit))
         {
             distance = Mathf.Clamp((hit.distance * hitDistanceMultiplier), clampMinDistance, -offsetZStart);
-            Debug.Log("True");
+          //  Debug.Log("True");
            
         }
         else if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back), out hit))
@@ -59,7 +60,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
             distance = -offsetZStart;
             
-            Debug.Log("False");
+           // Debug.Log("False");
         }
 
         Offset.z = Mathf.Lerp(Offset.z, -distance, smoother * Time.deltaTime);
@@ -85,9 +86,6 @@ public class ThirdPersonCamera : MonoBehaviour
         {
             UseCursor = true;
         }
-
-
-        Cursor.visible = UseCursor ? false : true;
     }
 
     // Update is called once per frame
