@@ -60,7 +60,7 @@ public class HungerScript : MonoBehaviour
 
     private static IEnumerator UpdateHunger ()
     {
-        while (stat_hunger < 0)
+        while (stat_hunger > 0)
         {
             stat_hunger -= Time.deltaTime * stat_hungerMultiplier;
 

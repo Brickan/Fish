@@ -2,84 +2,94 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof (Rigidbody))]
+[RequireComponent(typeof(Rigidbody))]
 
 public class BasicMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float speed;
+	[SerializeField]
+	private float speed;
 
-    private Vector3 currentDirection;
+	private Vector3 currentDirection;
 
-    private Rigidbody body;
+	private Rigidbody body;
 
-    public float cameraRotation;
-    
-    private float xDirection, zDirection;
+	public float cameraRotation;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        StartCheck();
+	private float xDirection, zDirection;
 
-        body = GetComponent<Rigidbody>();
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		StartCheck();
 
-    void StartCheck()
-    {
-        speed = (speed == 0) ?
-            speed = 10 : speed;
-    }
+		body = GetComponent<Rigidbody>();
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        Data();
+	void StartCheck()
+	{
+		speed = (speed == 0) ?
+			speed = 10 : speed;
+	}
 
-        Rotate();
+	// Update is called once per frame
+	void Update()
+	{
+		Data();
 
-        Move();
-    }
+		Rotate();
 
-    void Data() // gets the directions and makes them always positve
-    {
-        Vector3 previousDirection = currentDirection;
+		Move();
+	}
 
-        zDirection = Mathf.Abs(Input.GetAxis("Vertical"));
+	void Data() // gets the directions and makes them always positve
+	{
+		Vector3 previousDirection = currentDirection;
 
-        xDirection = Mathf.Abs(Input.GetAxis("Horizontal"));
+		zDirection = Mathf.Abs(Input.GetAxis("Vertical"));
 
-
-        currentDirection = new Vector3(xDirection, 0, zDirection);
-
-        currentDirection += (currentDirection.magnitude > 0) ?
-            previousDirection : Vector3.zero;
-
-        if (currentDirection.sqrMagnitude > 1)
-            currentDirection.Normalize();
-
-        else
-            currentDirection *= 1.4f;
-    }
-
-    void Rotate()
-    {
-        Vector3 lookDir = Camera.main.transform.rotation * (new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
-
-        body.transform.LookAt(new Vector3(lookDir.x, lookDir.y, lookDir.z) + body.transform.position);
-    }
+		xDirection = Mathf.Abs(Input.GetAxis("Horizontal"));
 
 
-    void Move() //Moves the character relative to where the camera is looking
-    {
-        Vector3 velocityForward = (transform.forward * currentDirection.z) * speed;
-        Vector3 velocityRight = (transform.forward * currentDirection.x) * speed;
-        Vector3 velocityUp = (transform.up * Input.GetAxis("Jump")) * (speed/4);
-        
+		currentDirection = new Vector3(xDirection, 0, zDirection);
 
-        Vector3 VelVec = velocityForward + velocityRight + velocityUp;
+		currentDirection += (currentDirection.magnitude > 0) ?
+			previousDirection : Vector3.zero;
+
+		if (currentDirection.sqrMagnitude > 1)
+			currentDirection.Normalize();
+
+		else
+			currentDirection *= 1.4f;
+	}
+
+	void Rotate()
+	{
+		Vector3 lookDir = Camera.main.transform.rotation * (new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")));
+
+		body.transform.LookAt(new Vector3(lookDir.x, lookDir.y, lookDir.z) + body.transform.position);
+	}
 
 
-        body.velocity = VelVec;
-    }
+	void Move() //Moves the character relative to where the camera is looking
+	{
+		Vector3 velocityForward = (transform.forward * currentDirection.z) * speed;
+		Vector3 velocityRight = (transform.forward * currentDirection.x) * speed;
+		Vector3 velocityUp = (transform.up * Input.GetAxis("Jump")) * (speed / 4);
+
+
+		Vector3 VelVec = velocityForward + velocityRight + velocityUp;
+
+
+		body.velocity = VelVec;
+	}
+
+	private void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.tag == "Food")
+		{
+
+			HungerScript.IncreaseHungerMeter(25);
+			Destroy(collision.gameObject);
+		}
+	}
 }

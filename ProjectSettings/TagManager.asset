@@ -9,6 +9,7 @@ TagManager:
   - Credits
   - MenuController
   - Instructions
+  - Food
   layers:
   - Default
   - TransparentFX

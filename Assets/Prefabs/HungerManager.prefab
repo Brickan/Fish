@@ -45,4 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHunger: 100
   hungerMultiplier: 1
-  deathSceneIndex: 3
+  deathSceneIndex: 2

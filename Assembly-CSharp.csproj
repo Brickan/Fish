@@ -66,7 +66,7 @@
     <Compile Include="Assets\Scripts\AI\FriendlyNPCAI.cs" />
     <Compile Include="Assets\Scripts\BasicMovement.cs" />
     <Compile Include="Assets\Scripts\Buttons\CreditsButton.cs" />
-    <Compile Include="Assets\Scripts\Buttons\OptionsButton.cs" />
+    <Compile Include="Assets\Scripts\Buttons\InstructionsButton.cs" />
     <Compile Include="Assets\Scripts\Buttons\QuitButton.cs" />
     <Compile Include="Assets\Scripts\Buttons\StartButton.cs" />
     <Compile Include="Assets\Scripts\CorallFade.cs" />
@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\FogController.cs" />
     <Compile Include="Assets\Scripts\GameOverScript.cs" />
     <Compile Include="Assets\Scripts\HungerScript.cs" />
+    <Compile Include="Assets\Scripts\HungerUI.cs" />
     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
     <Compile Include="Assets\Scripts\MasterScript.cs" />
     <Compile Include="Assets\Scripts\MenuControllerChecker.cs" />

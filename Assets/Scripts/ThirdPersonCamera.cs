@@ -47,7 +47,7 @@ public class ThirdPersonCamera : MonoBehaviour
         if (Physics.Linecast(target.transform.position, transform.position, out hit))
         {
             distance = Mathf.Clamp((hit.distance * hitDistanceMultiplier), clampMinDistance, -offsetZStart);
-            Debug.Log("True");
+          //  Debug.Log("True");
            
         }
         else if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.back), out hit))
@@ -60,7 +60,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
             distance = -offsetZStart;
             
-            Debug.Log("False");
+           // Debug.Log("False");
         }
 
         Offset.z = Mathf.Lerp(Offset.z, -distance, smoother * Time.deltaTime);
