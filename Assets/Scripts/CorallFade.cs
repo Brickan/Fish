@@ -11,7 +11,9 @@ public class CorallFade : MonoBehaviour
     [SerializeField]
     private int materialPicker;
     [SerializeField]
-    private float timeMultiplier;
+    private float timeToChange;
+    [SerializeField]
+    private bool minutesFade;
 
 
     // Start is called before the first frame update
@@ -20,6 +22,10 @@ public class CorallFade : MonoBehaviour
         fadeMaterial = GetComponent<MeshRenderer>().materials[materialPicker];
         startingColor = fadeMaterial.color;
         alphaValue = startingColor.a;
+
+        timeToChange = (timeToChange == 0) ? timeToChange = 20 : timeToChange;
+
+        TimeMultiplierMath();
     }
 
     // Update is called once per frame
@@ -30,8 +36,31 @@ public class CorallFade : MonoBehaviour
 
     void Decolor()
     {
-        alphaValue -= Time.deltaTime * timeMultiplier;
+        TimeCalc();
+
 
         fadeMaterial.color = new Color(startingColor.r, startingColor.g, startingColor.b, alphaValue);
+    }
+
+    void TimeMultiplierMath()
+    {
+        if (minutesFade)
+        {
+            timeToChange = (1f / 60f) / timeToChange;
+        }
+        else
+        {
+            timeToChange = 1f / timeToChange;
+        }
+    }
+
+    void TimeCalc()
+    {
+        alphaValue -= Time.deltaTime * timeToChange;
+
+        if(alphaValue < 0)
+        {
+            alphaValue = 0;
+        }
     }
 }

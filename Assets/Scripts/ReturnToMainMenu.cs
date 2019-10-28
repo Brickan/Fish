@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReturnToMainMenu : MonoBehaviour
 {
-    private GameObject startingScreen, credits;
+    private GameObject startingScreen, credits, instructions;
 
     [SerializeField]
     private bool activated;
@@ -13,6 +13,7 @@ public class ReturnToMainMenu : MonoBehaviour
     {
         credits = GameObject.FindGameObjectWithTag("Credits");
         startingScreen = GameObject.FindGameObjectWithTag("Starting");
+        instructions = GameObject.FindGameObjectWithTag("Instructions");
 
         activated = true;
     }
@@ -31,9 +32,10 @@ public class ReturnToMainMenu : MonoBehaviour
         }
     }
 
-    public void ReturnToMenu()
+    private void ReturnToMenu()
     {
+            credits.SetActive(false);
             startingScreen.SetActive(true);
-            credits.SetActive(false);        
+            instructions.SetActive(false);
     }
 }
