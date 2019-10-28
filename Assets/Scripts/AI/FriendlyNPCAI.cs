@@ -8,62 +8,45 @@ using UnityEngine.AI;
 public class FriendlyNPCAI : MonoBehaviour
 {
     private NavMeshAgent agent;
-    [SerializeField]
-    private Vector3[] positions;
 
     [SerializeField]
-    private int posNum;
-    [SerializeField]
     private Vector2 randomClamp;
+
+    private Vector2 offsetClamp;
+
+    private float newOffset;
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        offsetClamp = new Vector2(0.1f, 0.7f);
 
+        randomClamp = (randomClamp == Vector2.zero) ? new Vector2(-10, 10) : randomClamp;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //YPos();
-        //WalkingLoop();
-
         RandomWalk();
-
-    }
-
-    void YPos()
-    {
-        positions[posNum].y = transform.position.y;
-    }
-
-    void WalkingLoop()
-    {
-        if (transform.position != positions[posNum])
-        {
-            agent.SetDestination(positions[posNum]);
-        }
-        else if(transform.position == positions[posNum])
-        {
-            posNum++;
-        }
-        
-        if(posNum == positions.Length && !agent.hasPath)
-        {
-            posNum = 0;
-        }
     }
 
     void RandomWalk()
     {
-        if(!agent.hasPath)
+        if(!agent.hasPath || agent.isPathStale)
         {
             agent.SetDestination(new Vector3(
                 transform.position.x + Random.Range(randomClamp.x, randomClamp.y),
-                transform.position.y + Random.Range(randomClamp.x, randomClamp.y),
+                transform.position.y,
                 transform.position.z + Random.Range(randomClamp.x, randomClamp.y)));
-            Debug.Log(agent.destination);
+
+            newOffset = Mathf.Clamp(Random.Range(agent.baseOffset - 0.2f, agent.baseOffset + 0.2f),offsetClamp.x,offsetClamp.y);
+           
         }
+            agent.baseOffset = Mathf.MoveTowards(agent.baseOffset, newOffset, Time.deltaTime * 0.1f);
+        transform.LookAt(new Vector3(agent.destination.x, (newOffset * 10) + 1.08f, agent.destination.z));
+
+        Debug.DrawLine(this.transform.position, new Vector3(agent.destination.x, (newOffset * 10) + 1.08f, agent.destination.z), Color.black);
+
     }
 }

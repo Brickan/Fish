@@ -99,7 +99,8 @@ MonoBehaviour:
   zmin: -2
   zmax: 2
   time: 2
-  timeR: 3
+  startTime: 0.75
+  timeR: 10
 --- !u!54 &3107031817969383929
 Rigidbody:
   m_ObjectHideFlags: 0

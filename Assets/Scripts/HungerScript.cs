@@ -23,25 +23,47 @@ public class HungerScript : MonoBehaviour
         stat_hungerMultiplier = hungerMultiplier;
     }
 
+    /// <summary>
+    /// Starts the hunger meter.
+    /// </summary>
     public void StartHunger ()
     {
         StartCoroutine(UpdateHunger());
     }
 
+    /// <summary>
+    /// Returns the current hunger level as a float.
+    /// </summary>
+    /// <returns></returns>
     public static float GetHunger ()
     {
         return stat_hunger;
     }
 
+    /// <summary>
+    /// Increases the hunger meter by a referenced amount, meaning it feeds the fish.
+    /// </summary>
+    /// <param name="foodLevel"></param>
+    public static void IncreaseHungerMeter (float foodLevel)
+    {
+        stat_hunger += foodLevel;
+    }
+
     private static IEnumerator UpdateHunger ()
     {
-        float startHunger = stat_hunger;
-
         while (stat_hunger < 0)
         {
             stat_hunger -= Time.deltaTime * stat_hungerMultiplier;
 
             yield return new WaitForFixedUpdate();
         }
+    }
+
+    /// <summary>
+    /// Only to be used if we wanna brutaly murder the fish by way if this script. (Unimplemented)
+    /// </summary>
+    public static void DeadFish ()
+    {
+        // TODO: Kill the fish in an appropriate way.
     }
 }

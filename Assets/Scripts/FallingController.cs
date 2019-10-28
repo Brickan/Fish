@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FallingController : MonoBehaviour
 {
-	[SerializeField] private float rmin, rmax, zmin, zmax, time, timeR;
+	[SerializeField] private float rmin, rmax, zmin, zmax, time, startTime, timeR;
 
 	private float rand, rand2, checkValue;
 
@@ -49,7 +49,7 @@ public class FallingController : MonoBehaviour
 		if (time <= 0)
 		{
 			Move();
-			time = timeR;
+			time = startTime;
 		}
 
 		timeR = timeR - Time.deltaTime;
@@ -64,7 +64,7 @@ public class FallingController : MonoBehaviour
 
 	void Move()
 	{
-			rb.velocity = new Vector3(rand, 0, rand2);
+		rb.velocity = new Vector3(rand, 0, rand2);
 	}
 
 	private void OnCollisionEnter(Collision collision)

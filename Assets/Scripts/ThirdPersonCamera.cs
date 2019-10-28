@@ -33,6 +33,10 @@ public class ThirdPersonCamera : MonoBehaviour
         Offset = (Offset == Vector3.zero) ? new Vector3(0, 1, -5) : Offset;
         offsetZStart = Offset.z;
         Cursor.lockState = UseCursor ? CursorLockMode.Locked : CursorLockMode.None;
+
+        smoother = (smoother == 0) ? smoother = 10 : smoother;
+        hitDistanceMultiplier = (hitDistanceMultiplier == 0) ? hitDistanceMultiplier = 0.85f : hitDistanceMultiplier;
+        clampMinDistance = (clampMinDistance == 0) ? clampMinDistance = 5 : clampMinDistance;
     }
 
     void CameraCollision()
