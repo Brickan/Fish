@@ -9,7 +9,7 @@ public class ReturnToMainMenu : MonoBehaviour
     [SerializeField]
     private bool activated;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         credits = GameObject.FindGameObjectWithTag("Credits");
         startingScreen = GameObject.FindGameObjectWithTag("Starting");
