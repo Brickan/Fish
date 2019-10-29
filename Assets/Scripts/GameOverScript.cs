@@ -29,7 +29,7 @@ public class GameOverScript : MonoBehaviour
             UI.sprite = spr;
             UI.gameObject.SetActive(true);
 
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(7);
             UI.gameObject.SetActive(false);
         }
 
