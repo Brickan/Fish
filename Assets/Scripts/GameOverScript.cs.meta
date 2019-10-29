@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/GameOverScript.cs.meta
 guid: d45104d8b14df9c4d8338151b68cdb01
+=======
+guid: 323c5d9a1ca1feb43b0851613d6b9200
+>>>>>>> 466d22af505329e45becbf0b94e75134bc3b47e9:Assets/Scripts/GameOverScript.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
