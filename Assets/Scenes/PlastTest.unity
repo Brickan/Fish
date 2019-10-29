@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &7501205 stripped
 GameObject:
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &18063356 stripped
 GameObject:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &19035774 stripped
 GameObject:
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &20713264 stripped
 GameObject:
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &21933434 stripped
 GameObject:
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &60211737 stripped
 GameObject:
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &67668025 stripped
 GameObject:
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &79960284
 PrefabInstance:
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &82333835 stripped
 GameObject:
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &84954640
 GameObject:
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &95625607 stripped
 GameObject:
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &126926023 stripped
 GameObject:
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &163049150 stripped
 GameObject:
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &181784405
 GameObject:
@@ -4282,7 +4282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &200508360 stripped
 GameObject:
@@ -4303,7 +4303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &204690320 stripped
 GameObject:
@@ -4324,7 +4324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &205561726 stripped
 GameObject:
@@ -4345,7 +4345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &210119800 stripped
 GameObject:
@@ -4366,7 +4366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &235128876
 GameObject:
@@ -4431,7 +4431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &271180770 stripped
 GameObject:
@@ -4452,7 +4452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &271931766 stripped
 GameObject:
@@ -4473,7 +4473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &276693639 stripped
 GameObject:
@@ -4494,7 +4494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &334374370 stripped
 GameObject:
@@ -4515,7 +4515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &346428899
 PrefabInstance:
@@ -4664,7 +4664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &375224968
 PrefabInstance:
@@ -4808,7 +4808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &390702768
 PrefabInstance:
@@ -4898,7 +4898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &453939219
 PrefabInstance:
@@ -4988,7 +4988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &467574954 stripped
 GameObject:
@@ -5009,7 +5009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &475723003 stripped
 GameObject:
@@ -5030,7 +5030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &479303478 stripped
 GameObject:
@@ -5051,7 +5051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &491309326 stripped
 GameObject:
@@ -5072,7 +5072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &493955470 stripped
 GameObject:
@@ -5093,7 +5093,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &497288321
 PrefabInstance:
@@ -5183,7 +5183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &542417474 stripped
 GameObject:
@@ -5204,7 +5204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &543362964 stripped
 GameObject:
@@ -5225,7 +5225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &591049994 stripped
 GameObject:
@@ -5246,7 +5246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &592498950 stripped
 GameObject:
@@ -5267,7 +5267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &606420265 stripped
 GameObject:
@@ -5288,7 +5288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &609957593 stripped
 GameObject:
@@ -5309,7 +5309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &619585759 stripped
 GameObject:
@@ -5330,7 +5330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &623315595 stripped
 GameObject:
@@ -5351,7 +5351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &669394934 stripped
 GameObject:
@@ -5372,7 +5372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &686858203
 PrefabInstance:
@@ -5462,7 +5462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &701211259
 PrefabInstance:
@@ -5552,7 +5552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &728124691 stripped
 GameObject:
@@ -5573,7 +5573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &736932429
 GameObject:
@@ -5698,7 +5698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &750471364 stripped
 GameObject:
@@ -5719,7 +5719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &771579828 stripped
 GameObject:
@@ -5740,7 +5740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &774998757 stripped
 GameObject:
@@ -5761,7 +5761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &795420097 stripped
 GameObject:
@@ -5782,7 +5782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &804737918 stripped
 GameObject:
@@ -5803,7 +5803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &821753756 stripped
 GameObject:
@@ -5824,7 +5824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &839925893
 GameObject:
@@ -5889,7 +5889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &861099707 stripped
 GameObject:
@@ -5910,7 +5910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &886009544 stripped
 GameObject:
@@ -5931,7 +5931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &888832561 stripped
 GameObject:
@@ -5952,7 +5952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &894874502 stripped
 GameObject:
@@ -5973,7 +5973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &934477182 stripped
 GameObject:
@@ -5994,7 +5994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &963509832 stripped
 GameObject:
@@ -6015,7 +6015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &965089784 stripped
 GameObject:
@@ -6036,7 +6036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &987180654 stripped
 GameObject:
@@ -6057,7 +6057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &997275444 stripped
 GameObject:
@@ -6078,7 +6078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1002828140 stripped
 GameObject:
@@ -6099,7 +6099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &1011099383
 PrefabInstance:
@@ -6258,7 +6258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &1124622150
 PrefabInstance:
@@ -6348,7 +6348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1142906348 stripped
 GameObject:
@@ -6369,7 +6369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1147086113
 GameObject:
@@ -6401,7 +6401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6553d5f3eeb094f42ae05739a3acf918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!82 &1147086115
 AudioSource:
@@ -6533,7 +6533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1242750960
 GameObject:
@@ -6565,7 +6565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 0
-  startTime: 5
+  startTime: 2
   minPosX: 250
   maxPosX: 250
   minPosZ: 250
@@ -6613,7 +6613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1288357075 stripped
 GameObject:
@@ -6634,7 +6634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1303622641 stripped
 GameObject:
@@ -6655,7 +6655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1308355378 stripped
 GameObject:
@@ -6676,7 +6676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1329692212 stripped
 GameObject:
@@ -6697,7 +6697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1333484303 stripped
 GameObject:
@@ -6718,7 +6718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1347410549 stripped
 GameObject:
@@ -6739,7 +6739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1376482240 stripped
 GameObject:
@@ -6760,7 +6760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1391315924
 GameObject:
@@ -6847,7 +6847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1421630296 stripped
 GameObject:
@@ -6868,7 +6868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1484438972
 GameObject:
@@ -6988,7 +6988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1497047244 stripped
 GameObject:
@@ -7009,7 +7009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1570455224
 GameObject:
@@ -7074,7 +7074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1582253793 stripped
 GameObject:
@@ -7095,7 +7095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1638858730 stripped
 GameObject:
@@ -7116,7 +7116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1646316158 stripped
 GameObject:
@@ -7137,7 +7137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1649594965
 GameObject:
@@ -7202,7 +7202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1713777141 stripped
 GameObject:
@@ -7223,7 +7223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1001 &1738867236
 PrefabInstance:
@@ -7313,7 +7313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1768336650 stripped
 GameObject:
@@ -7334,7 +7334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1771287094 stripped
 GameObject:
@@ -7355,7 +7355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1774371266 stripped
 GameObject:
@@ -7376,7 +7376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1797436842 stripped
 GameObject:
@@ -7397,7 +7397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1801813288 stripped
 GameObject:
@@ -7418,7 +7418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1836199874 stripped
 GameObject:
@@ -7439,7 +7439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1895410682 stripped
 GameObject:
@@ -7460,7 +7460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1901241658
 GameObject:
@@ -7516,7 +7516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &1957807163 stripped
 GameObject:
@@ -7537,7 +7537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2005605870 stripped
 GameObject:
@@ -7558,7 +7558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2007450160 stripped
 GameObject:
@@ -7579,7 +7579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2024728726 stripped
 GameObject:
@@ -7600,7 +7600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2041895439 stripped
 GameObject:
@@ -7621,7 +7621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2051044323 stripped
 GameObject:
@@ -7642,7 +7642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2052773615 stripped
 GameObject:
@@ -7663,7 +7663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2091895002 stripped
 GameObject:
@@ -7684,7 +7684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2119309815
 GameObject:
@@ -7749,7 +7749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
 --- !u!1 &2142264318 stripped
 GameObject:
@@ -7770,5 +7770,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialPicker: 0
-  timeToChange: 2
+  timeToChange: 5
   minutesFade: 1
