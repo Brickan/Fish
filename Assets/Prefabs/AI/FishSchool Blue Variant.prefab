@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a728057975882f44c86a3e5abcada669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomClamp: {x: -10, y: 10}
+  randomClamp: {x: -100, y: 100}
 --- !u!195 &1945294740
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -23,7 +23,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.05
-  m_Speed: 3.5
+  m_Speed: 12
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -50,17 +50,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.15
+      value: 57.8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 9.8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.825434
+      value: -9.6
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
@@ -105,17 +105,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4678384571359167739, guid: 2232e340d60834f4eac7a4844e28dd9e,
         type: 3}

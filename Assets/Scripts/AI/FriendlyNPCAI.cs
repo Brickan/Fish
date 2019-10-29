@@ -49,7 +49,7 @@ public class FriendlyNPCAI : MonoBehaviour
 
         }
 
-        agent.baseOffset = Mathf.MoveTowards(agent.baseOffset, targetOffset, Time.deltaTime * 0.01f);
+        agent.baseOffset = Mathf.MoveTowards(agent.baseOffset, targetOffset, Time.deltaTime * 0.05f);
 
 
         if (!oneLook)

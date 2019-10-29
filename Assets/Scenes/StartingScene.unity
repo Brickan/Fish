@@ -205,11 +205,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clownfish_move Variant AI
       objectReference: {fileID: 0}
-    - target: {fileID: 8629518743864927960, guid: 98c308451d64ba3428e39db22fd50d96,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4726928354911065291, guid: 98c308451d64ba3428e39db22fd50d96,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -264,33 +259,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726928354911065291, guid: 98c308451d64ba3428e39db22fd50d96,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726928354911065291, guid: 98c308451d64ba3428e39db22fd50d96,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726928354911065291, guid: 98c308451d64ba3428e39db22fd50d96,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 830222983, guid: 98c308451d64ba3428e39db22fd50d96, type: 3}
-      propertyPath: randomClamp.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 830222983, guid: 98c308451d64ba3428e39db22fd50d96, type: 3}
-      propertyPath: randomClamp.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 830222984, guid: 98c308451d64ba3428e39db22fd50d96, type: 3}
-      propertyPath: m_Speed
-      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c308451d64ba3428e39db22fd50d96, type: 3}
@@ -2722,37 +2690,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9158395061094036237, guid: 67deab6c336ecd742a59dae12cd50deb,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158395061094036237, guid: 67deab6c336ecd742a59dae12cd50deb,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 9158395061094036237, guid: 67deab6c336ecd742a59dae12cd50deb,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483948689, guid: 67deab6c336ecd742a59dae12cd50deb, type: 3}
-      propertyPath: randomClamp.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483948689, guid: 67deab6c336ecd742a59dae12cd50deb, type: 3}
-      propertyPath: randomClamp.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483948690, guid: 67deab6c336ecd742a59dae12cd50deb, type: 3}
-      propertyPath: m_Speed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1483948690, guid: 67deab6c336ecd742a59dae12cd50deb, type: 3}
-      propertyPath: m_Acceleration
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67deab6c336ecd742a59dae12cd50deb, type: 3}
 --- !u!1001 &4642856426582407254
@@ -2766,11 +2703,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FishSchool Blue
-      objectReference: {fileID: 0}
-    - target: {fileID: 3697262072827541198, guid: e39f887c1dd454341a1a412aebd455f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 365928038631605469, guid: e39f887c1dd454341a1a412aebd455f6,
         type: 3}
@@ -2827,38 +2759,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 365928038631605469, guid: e39f887c1dd454341a1a412aebd455f6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 365928038631605469, guid: e39f887c1dd454341a1a412aebd455f6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 365928038631605469, guid: e39f887c1dd454341a1a412aebd455f6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945294739, guid: e39f887c1dd454341a1a412aebd455f6, type: 3}
-      propertyPath: randomClamp.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945294739, guid: e39f887c1dd454341a1a412aebd455f6, type: 3}
-      propertyPath: randomClamp.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1945294740, guid: e39f887c1dd454341a1a412aebd455f6, type: 3}
-      propertyPath: m_Speed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 36671638748506940, guid: e39f887c1dd454341a1a412aebd455f6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 11ec1cd0e9fe43e4d99560d8ef5142eb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39f887c1dd454341a1a412aebd455f6, type: 3}
 --- !u!1001 &5130142136091885250
@@ -2872,11 +2772,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FishSchool Yellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 7918860453935175215, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6610765801322914876, guid: 92bae66948351e044aae432c87dff3f6,
         type: 3}
@@ -2933,36 +2828,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6610765801322914876, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6610765801322914876, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6610765801322914876, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 780288997936125427, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: randomClamp.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 780288997936125427, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: randomClamp.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1890329239251101619, guid: 92bae66948351e044aae432c87dff3f6,
-        type: 3}
-      propertyPath: m_Speed
-      value: 12
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92bae66948351e044aae432c87dff3f6, type: 3}
 --- !u!1001 &5482629568906455120
@@ -2976,11 +2841,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FishSchool Grey
-      objectReference: {fileID: 0}
-    - target: {fileID: 6194624186011836726, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7182362039083438885, guid: b67b3522cad73a442a39e646e29e36b6,
         type: 3}
@@ -3036,36 +2896,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7182362039083438885, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7182362039083438885, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7182362039083438885, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3652122644161277339, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: m_Speed
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067068336843486202, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: randomClamp.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: 4067068336843486202, guid: b67b3522cad73a442a39e646e29e36b6,
-        type: 3}
-      propertyPath: randomClamp.y
-      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67b3522cad73a442a39e646e29e36b6, type: 3}
